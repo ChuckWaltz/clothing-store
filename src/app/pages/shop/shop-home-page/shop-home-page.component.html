@@ -1,0 +1,97 @@
+<nav-bar></nav-bar>
+<div data-scroll-speed="0" class="fill-screen-half fixed-image col-xs-12 store-header-img" style="background-image: url(assets/images/store-interior-2-fix.jpg);">
+  <div class=" col-xs-12 store-header">SHOP</div>
+</div>
+
+<!-- <div class="col-xs-12 store-header-divider"></div> -->
+
+<div class="row shop-nav">
+  <ul>
+    <li [routerLink]="['/shop/featured']"><a>Featured Collection</a></li>
+    <li [routerLink]="['/shop/dresses']"><a>Dresses</a></li>
+    <li [routerLink]="['/shop/summer']"><a>Summer</a></li>
+    <li [routerLink]="['/shop/winter']"><a>Winter</a></li>
+    <li [routerLink]="['/shop/professional']"><a>Professional</a></li>
+    <li [routerLink]="['/shop/intimates']"><a>Intimates</a></li>
+    <li [routerLink]="['/shop/accessories']"><a>Accessories</a></li>
+  </ul>
+</div>
+
+<div class="row">
+  <div class="fill-div fixed-image col-xs-12" style="background-color: white;">
+    <!-- <div class="store-nav col-xs-12">
+      <div class="store-nav-inner col-xs-10 col-xs-offset-1 col-lg-8 col-lg-offset-2">
+
+        <ul>
+          <li><a href="">Tops</a></li>
+          <li><a href="">Bottoms</a></li>
+          <li><a href="">Shoes</a></li>
+          <li><a href="">Accs.</a></li>
+          <li><a href="" class="summer-link">Summer</a></li>
+          <li><a href="" class="winter-link">Winter</a></li>
+          <li><a href="" class="evening-link">Evening</a></li>
+          <li><a href="" class="business-link">Business</a></li>
+        </ul>
+
+      </div>
+    </div> -->
+    <div class="store-content-area"> 
+
+      <div class="store-content-area-inner">
+
+        <div class="filtered-section">
+          <div class="store-content-area-header">
+              <h1>{{activeCategory | titlecase}}</h1>
+          </div>
+          <div class="row store-content-item-list">
+            <div *ngFor="let item of activeItems">
+              <app-shop-item [name]=item.name (click)="active(item.name)"></app-shop-item>
+            </div>
+          </div>
+        </div>
+
+    </div>
+      </div>
+  </div>
+</div>
+
+<div class="shop-item-product-page" *ngIf="productActive">
+
+  <div class="close-button" (click)="active()">X</div>
+  <br>
+
+  <div class="shop-item-images">
+      <img class="main-image col-xs-10" src="{{activeImageUrl}}" >
+      <img class="side-image col-xs-2" src="{{i}}" *ngFor="let i of activeProduct.images" (click)="switchMainImageUrl(i)" >
+  </div>
+
+  <div class="shop-item-bottom-text col-xs-12">
+    <h2>{{activeProduct.name}} - {{activeProduct.price}}</h2>
+    <p>{{activeProduct.description}}</p>
+
+    <select class="size-select">
+      <option value="">Size</option>
+      <option value="xs">XS</option>
+      <option value="sm">S</option>
+      <option value="md">M</option>
+      <option value="lg">L</option>
+      <option value="xl">XL</option>
+      <option value="2xl">2XL</option>
+    </select>
+    <select class="qty-select">
+      <option value="">Qty</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+
+    <button class="add-to-cart-button">Add to Cart</button>
+  </div>
+
+</div>
+
+
+
+<app-footer></app-footer>

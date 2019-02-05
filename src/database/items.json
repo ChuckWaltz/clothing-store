@@ -1,0 +1,746 @@
+{
+    "featured collection": [
+        {
+            "name": "Abbie Eyelet Button-Down Dress",
+            "price": "$39",
+            "mainImageUrl": "assets/images/dresses/dress1.jpg",
+            "description": "Sweet like summer sunshine in this button-down eyelet midi dress from Loud Apparel. Made from a so soft cotton that features embroidered eyelet detailing throughout, in a fit + flare construction cut to a midi length. Topped with a button-down front + v-neckline. Finished with side-entry pockets at the hips + smocked detailing at the back for the perfect fit.",
+            "images": ["assets/images/dresses/dress1.jpg", "assets/images/dresses/dress1_2.jpg", "assets/images/dresses/dress1_3.jpg", "assets/images/dresses/dress1_4.jpg"]
+        },
+        {
+            "name": "Kimchi Blue Riki Ribbed Cropped Top",
+            "price": "$39",
+            "mainImageUrl": "assets/images/summer/summer_top3.jpg",
+            "description": "Ultimate in throw-it-on-and go style with this ribbed cropped top from Kimchi Blue, available only at Loud Apparel. Made from a super soft ribbed knit in a wide-cut, cropped construction. Topped with a split V-neckline + dropped extra-wide long sleeves. Finished with inside-out seamed detailing throughout.",
+            "images": ["assets/images/summer/summer_top3.jpg", "assets/images/summer/summer_top3_2.jpg", "assets/images/summer/summer_top3_3.jpg", "assets/images/summer/summer_top3_4.jpg"]
+        },
+        {
+            "name": "Kimchi Blue Rita Wrap Dress",
+            "price": "$49",
+            "mainImageUrl": "assets/images/dresses/dress6.jpg",
+            "description": "Vintage-inspired wrap dress is the perfect femme feel. Wrap construction with a surplice style front + tie side closure. Features a plunging v-neckline + ruffle peplum hem. Finished with branded trim throughout + short sleeves.",
+            "images": ["assets/images/dresses/dress6.jpg", "assets/images/dresses/dress6_2.jpg", "assets/images/dresses/dress6_3.jpg", "assets/images/dresses/dress6_4.jpg"]
+        },
+        {
+            "name": "Tammy Sheer Trench Coat",
+            "price": "$89",
+            "mainImageUrl": "assets/images/summer/summer_trench1.jpg",
+            "description": "Sleek + chic in this sheer trench coat from Loud Apparel. Made from a lightweight chiffon-like fabrication in a longline silhouette. Topped with a belted waist, pointed collar + matching lapel. Features an overlay at the chest. Finished with button-cuff long sleeves.",
+            "images": ["assets/images/summer/summer_trench1.jpg", "assets/images/summer/summer_trench1_2.jpg", "assets/images/summer/summer_trench1_3.jpg", "assets/images/summer/summer_trench1_4.jpg"]
+        },
+        {
+            "name": "Pep Squad Wrap Skirt",
+            "price": "$49",
+            "mainImageUrl": "assets/images/professional/professional_skirt1.jpg",
+            "description": "Put some pep in your step with this skirt from Loud Apparel. Built in a high-rise, straight-fit construction. Features a wrap front + button-down closure at the side waist. Finished with a slightly askew hemline.",
+            "images": ["assets/images/professional/professional_skirt1.jpg", "assets/images/professional/professional_skirt1_2.jpg", "assets/images/professional/professional_skirt1_3.jpg", "assets/images/professional/professional_skirt1_4.jpg"]
+        },
+        {
+            "name": "As If Plaid Mini Dress",
+            "price": "$78",
+            "mainImageUrl": "assets/images/dresses/dress16.jpg",
+            "description": "Plaid bustier mini dress from Loud Apparel. Made from a bold + bright allover plaid fabrication in a curve-skimming fit. Topped with bustier detailing at the chest. Features thin, adjustable shoulder straps that lead to a low, square back. Finished with a cut-out to the reverse and elastic banding. Pairs perfectly with the Loud Apparel As If Plaid Cropped Jacket.",
+            "images": ["assets/images/dresses/dress16.jpg", "assets/images/dresses/dress16_2.jpg", "assets/images/dresses/dress16_3.jpg", "assets/images/dresses/dress16_4.jpg"]
+        },
+        {
+            "name": "Drawstring Safari Button-Down Shirt",
+            "price": "$49",
+            "mainImageUrl": "assets/images/professional/professional_blouse1.jpg",
+            "description": "Go exploring in this button-down shirt with a drawstring waist, by Loud Apparel. Made from a woven fabrication with a button-down closure. Features an adjustable drawstring waist. Topped with a v-neckline + pointed collar with a matching lapel. Finished with dropped short sleeves + a button flap pocket at the left chest.",
+            "images": ["assets/images/professional/professional_blouse1.jpg", "assets/images/professional/professional_blouse1_2.jpg", "assets/images/professional/professional_blouse1_3.jpg", "assets/images/professional/professional_blouse1_4.jpg"]
+        },
+        {
+            "name": "Out From Under Lace Halter Bra",
+            "price": "$16",
+            "mainImageUrl": "assets/images/intimates/intimates_bra3.jpg",
+            "description": "Sweet, stretchy lace halter bra by Out From Under with a comfy strap that goes behind the neck. Adjustable hook & eye closure at the back. Lined.",
+            "images": ["assets/images/intimates/intimates_bra3.jpg", "assets/images/intimates/intimates_bra3_2.jpg", "assets/images/intimates/intimates_bra3_3.jpg", "assets/images/intimates/intimates_bra3_4.jpg"]
+        },
+        {
+            "name": "White Cameron Block Short",
+            "price": "$29",
+            "mainImageUrl": "assets/images/intimates/intimates_short1.jpg",
+            "description": "Essential lounge short by Out From Under in a soft + fuzzy fabric blend. Wide ribbed waist and side panels for a contrast effect, with an elastic drawstring for comfortable closure. Short-shorts length.",
+            "images": ["assets/images/intimates/intimates_short1.jpg", "assets/images/intimates/intimates_short1_2.jpg", "assets/images/intimates/intimates_short1_3.jpg", "assets/images/intimates/intimates_short1_4.jpg"]
+        },
+        {
+            "name": "Remade Plaid Flannel Hooded Button-Down Shirt",
+            "price": "$79",
+            "mainImageUrl": "assets/images/winter/winter_flanel1.jpg",
+            "description": "Casually cool button-down hooded flannel shirt that’s been expertly upcycled by our Urban Renewal team. Topped with long sleeves + a drawstring hoodie. Please note that as each item has been updated by hand, each piece is truly one of a kind. The item you receive may vary from the item you see pictured here. We’ll find our favorite and deliver right to you!",
+            "images": ["assets/images/winter/winter_flanel1.jpg", "assets/images/winter/winter_flanel1_2.jpg", "assets/images/winter/winter_flanel1_3.jpg", "assets/images/winter/winter_flanel1_4.jpg"]
+        },
+        {
+            "name": "Vintage Cropped Camo Pant",
+            "price": "$59",
+            "mainImageUrl": "assets/images/winter/winter_pants2.jpg",
+            "description": "Vintage mid-rise camo pant that’s been expertly sourced by our Renewal team. Made from a vintage cotton in a classic camo pattern with a relaxed-fit, cropped straight-leg silhouette. Topped with a button-zipper fly. Finished with side-entry pockets at the hips, camo pockets on the leg + elastic ankle cuffs.",
+            "images": ["assets/images/winter/winter_pants2.jpg", "assets/images/winter/winter_pants2_2.jpg", "assets/images/winter/winter_pants2_3.jpg", "assets/images/winter/winter_pants2_4.jpg"]
+        },
+        {
+            "name": "Lobreak 3 Stripes Leggings",
+            "price": "$24",
+            "mainImageUrl": "assets/images/winter/winter_leggings1.jpg",
+            "description": "Built from a soft + stretchy fabrication in a body-contouring fit. Topped with a banded waist. Finished with a throwback trefoil patch logo at the ankle and the iconic adidas 3 stripe at the sides",
+            "images": ["assets/images/winter/winter_leggings1.jpg", "assets/images/winter/winter_leggings1_2.jpg", "assets/images/winter/winter_leggings1_3.jpg", "assets/images/winter/winter_leggings1_4.jpg"]
+        },
+        {
+            "name": "BAGGU Drawstring Backpack",
+            "price": "$42",
+            "mainImageUrl": "assets/images/accessories/accessories_backpack1.jpg",
+            "description": "Make your daily commute + trips to class so easy with this drawstring backpack from BAGGU. In a crisp canvas made from 65% recycled cotton with a drawstring, flap-front silhouette + button closure. Perfectly roomy with a top carrying handle and adjustable shoulder straps.",
+            "images": ["assets/images/accessories/accessories_backpack1.jpg", "assets/images/accessories/accessories_backpack1_2.jpg", "assets/images/accessories/accessories_backpack1_3.jpg", "assets/images/accessories/accessories_backpack1_4.jpg"]
+        },
+        {
+            "name": "Slim Oval Metal Sunglasses",
+            "price": "$16",
+            "mainImageUrl": "assets/images/accessories/accessories_sunglasses2.jpg",
+            "description": "Retro modern sunglasses exclusively from Loud Apparel. Round tinted lenses are 100% UV protected, and framed in a mixed metal construction. Finished with silicone nose grips and curved plastic-tipped arms for a comfortable wear.",
+            "images": ["assets/images/accessories/accessories_sunglasses2.jpg", "assets/images/accessories/accessories_sunglasses2_2.jpg", "assets/images/accessories/accessories_sunglasses2_3.jpg"]
+        },
+        {
+            "name": "Classic Bandana - Yellow",
+            "price": "$10",
+            "mainImageUrl": "assets/images/accessories/accessories_bandana1.jpg",
+            "description": "Vintage-inspired bandana cut square with the classic western pattern that goes perfectly with everything. Perfect knotted around your neck, as a headband or strung around a bag strap for a rustic take on a trend we love.",
+            "images": ["assets/images/accessories/accessories_bandana1.jpg", "assets/images/accessories/accessories_bandana1_2.jpg", "assets/images/accessories/accessories_bandana1_3.jpg"]
+        }
+    ],
+    
+    "dresses": [
+
+        {
+            "name": "Abbie Eyelet Button-Down Dress",
+            "price": "$39",
+            "mainImageUrl": "assets/images/dresses/dress1.jpg",
+            "description": "Sweet like summer sunshine in this button-down eyelet midi dress from Loud Apparel. Made from a so soft cotton that features embroidered eyelet detailing throughout, in a fit + flare construction cut to a midi length. Topped with a button-down front + v-neckline. Finished with side-entry pockets at the hips + smocked detailing at the back for the perfect fit.",
+            "images": ["assets/images/dresses/dress1.jpg", "assets/images/dresses/dress1_2.jpg", "assets/images/dresses/dress1_3.jpg", "assets/images/dresses/dress1_4.jpg"]
+        },
+        {
+            "name": "Gretchen Eyelet Midi Wrap Dress",
+            "price": "$72",
+            "mainImageUrl": "assets/images/dresses/dress2.jpg",
+            "description": "Sweet like springtime in this midi wrap dress. Made from a slightly sheer eyelet fabrication in a wrap midi construction with a tie belt at the waist. Topped with a plunging surplice neckline + extra-long short flutter sleeves. Finished with a flutter hem. Partially lined.",
+            "images": ["assets/images/dresses/dress2.jpg", "assets/images/dresses/dress2_2.jpg", "assets/images/dresses/dress2_3.jpg", "assets/images/dresses/dress2_4.jpg"]
+        },
+        {
+            "name": "Bohemian Embroidered Maxi Dress",
+            "price": "$60",
+            "mainImageUrl": "assets/images/dresses/dress3.jpg",
+            "description": "Prairie pretty in this maxi dress. Made from a woven fabrication in a drop-waist silhouette. Topped with a crew-neckline + long sleeves with button-cuffs. Features embroidered floral detailing at the chest + tiered accents at the midi skirt bottom. Finished with a button closure at the back.",
+            "images": ["assets/images/dresses/dress3.jpg", "assets/images/dresses/dress3_2.jpg", "assets/images/dresses/dress3_3.jpg", "assets/images/dresses/dress3_4.jpg"]
+        },
+        {
+            "name": "Deena Striped Linen Button-Down Midi Dress",
+            "price": "$42",
+            "mainImageUrl": "assets/images/dresses/dress4.jpg",
+            "description": "Lightweight linen midi dress. Striped fabrication in a relaxed-fit, empire-waist construction. Topped with a square neckline + thick, adjustable shoulder straps that lead to low, square back that features ruched detailing for the perfect fit. Finished with a button-down closure at the left.",
+            "images": ["assets/images/dresses/dress4.jpg", "assets/images/dresses/dress4_2.jpg", "assets/images/dresses/dress4_3.jpg", "assets/images/dresses/dress4_4.jpg"]
+        },
+        {
+            "name": "Amber Button-Down Linen Midi Dress",
+            "price": "$50",
+            "mainImageUrl": "assets/images/dresses/dress5.jpg",
+            "description": "Button-down midi dress. Made from an easy, breezy lightweight linen in a defined waist silhouette with a plunging v-neckline that features a surplice style button-down front. Features a high-rise midi skirt bottom with a notch front. Finished with a low, square back with smocked detailing.",
+            "images": ["assets/images/dresses/dress5.jpg", "assets/images/dresses/dress5_2.jpg", "assets/images/dresses/dress5_3.jpg", "assets/images/dresses/dress5_4.jpg"]
+        },
+        {
+            "name": "Kimchi Blue Rita Wrap Dress",
+            "price": "$49",
+            "mainImageUrl": "assets/images/dresses/dress6.jpg",
+            "description": "Vintage-inspired wrap dress is the perfect femme feel. Wrap construction with a surplice style front + tie side closure. Features a plunging v-neckline + ruffle peplum hem. Finished with branded trim throughout + short sleeves.",
+            "images": ["assets/images/dresses/dress6.jpg", "assets/images/dresses/dress6_2.jpg", "assets/images/dresses/dress6_3.jpg", "assets/images/dresses/dress6_4.jpg"]
+        },
+        {
+            "name": "Kimchi Green Rita Wrap Dress",
+            "price": "$70",
+            "mainImageUrl": "assets/images/dresses/dress7.jpg",
+            "description": "Vintage-inspired wrap dress from Kimchi Blue is the perfect femme feel. Wrap construction with a surplice style front + tie side closure. Features a plunging v-neckline + ruffle peplum hem. Finished with branded trim throughout + short sleeves.",
+            "images": ["assets/images/dresses/dress7.jpg", "assets/images/dresses/dress7_2.jpg", "assets/images/dresses/dress7_3.jpg", "assets/images/dresses/dress7_4.jpg"]
+        },
+        {
+            "name": "Colette Stretch Linen Mini Dress",
+            "price": "$32",
+            "mainImageUrl": "assets/images/dresses/dress8.jpg",
+            "description": "Maxi wrap dress from Auguste The Label. Built from a woven floral fabrication in a wrap construction with a tie belt at the waist. Topped with a plunging surplice neckline + tie-shoulder straps that lead to a low, square back. Finished with a ruffle-trim hemline.",
+            "images": ["assets/images/dresses/dress8.jpg", "assets/images/dresses/dress8_2.jpg", "assets/images/dresses/dress8_3.jpg", "assets/images/dresses/dress8_4.jpg"]
+        },
+        {
+            "name": "Button-Down Midi Shirt Dress",
+            "price": "$69",
+            "mainImageUrl": "assets/images/dresses/dress9.jpg",
+            "description": "Button-down shift dress cut to a midi length. Topped with a partial button-down front + pointed collar with a matching lapel. In a woven fabrication that’s fully lined. Finished with short sleeves + pockets at the hips.",
+            "images": ["assets/images/dresses/dress9.jpg", "assets/images/dresses/dress9_2.jpg", "assets/images/dresses/dress9_3.jpg", "assets/images/dresses/dress9_4.jpg"]
+
+        },
+        {
+            "name": "Black Button-Down Midi Shirt Dress",
+            "price": "$69",
+            "mainImageUrl": "assets/images/dresses/dress10.jpg",
+            "description": "Button-down shift dress cut to a midi length. Topped with a partial button-down front + pointed collar with a matching lapel. In a woven fabrication that’s fully lined. Finished with short sleeves + pockets at the hips.",
+            "images": ["assets/images/dresses/dress10.jpg", "assets/images/dresses/dress10_2.jpg", "assets/images/dresses/dress10_3.jpg", "assets/images/dresses/dress10_4.jpg"]
+
+        },
+        {
+            "name": "Mallory Button-Down Mini Dress",
+            "price": "$72",
+            "mainImageUrl": "assets/images/dresses/dress11.jpg",
+            "description": "'90s-inspired button-down mini dress from Loud Apparel. Built from a woven fabrication in a slim cut, slightly fit + flare silhouette. Topped with a plunging v-neckline + short sleeves. Looks so good on its own or layered up.",
+            "images": ["assets/images/dresses/dress11.jpg", "assets/images/dresses/dress11_2.jpg"]
+
+        },
+        {
+            "name": "Gabrielle Linen Midi Wrap Dress",
+            "price": "$60",
+            "mainImageUrl": "assets/images/dresses/dress12.jpg",
+            "description": "Simply perfect linen midi wrap dress from Loud Apparel. Made from a lightweight linen in a wrap construction with a tie belt at the waist. Topped with a v-neckline + extra-long short sleeves with cuffed hems. Finished with pouch pockets at the hips.",
+            "images": ["assets/images/dresses/dress12.jpg", "assets/images/dresses/dress12_2.jpg", "assets/images/dresses/dress12_3.jpg", "assets/images/dresses/dress12_4.jpg"]
+
+        },
+        {
+            "name": "Button-Down Denim Mini Dress",
+            "price": "$59",
+            "filters": ["dresses"],
+            "mainImageUrl": "assets/images/dresses/dress13_2.jpg",
+            "description": "Back to school cool in this denim mini dress from Loud Apparel. Built from a washed denim in a button-down construction with a defined waist. Topped with a square neckline + matching thick shoulder straps. Finished with a matching square back. Looks so good all on its own or layered up.",
+            "images": ["assets/images/dresses/dress13_2.jpg", "assets/images/dresses/dress13.jpg", "assets/images/dresses/dress13_3.jpg", "assets/images/dresses/dress13_4.jpg"]
+
+        },
+        {
+            "name": "Sparks Fly Tiered Midi Dress",
+            "price": "$62",
+            "mainImageUrl": "assets/images/dresses/dress14.jpg",
+            "description": "Like a dream in this tiered fit + flare midi dress from Loud Apparel. In a defined waist silhouette that’s topped with a square neckline + thin shoulder straps that lead to a strappy open back with a tie closure. Finished with a midi-length tiered midi skirt.",
+            "images": ["assets/images/dresses/dress14.jpg", "assets/images/dresses/dress14_2.jpg", "assets/images/dresses/dress14_3.jpg"]
+
+        },
+        {
+            "name": "Harper Tiered Lace-Up Babydoll Dress",
+            "price": "$68",
+            "mainImageUrl": "assets/images/dresses/dress15.jpg",
+            "description": "Tiered babydoll mini dress from Loud Apparel. Made from a woven fabrication in a tiered construction + babydoll silhouette. Topped with a v-neckline that leads to cinched detailing at the center chest. Features thin, adjustable shoulder straps that lead to a plunging V-Back with corset-like, lace-up detailing.",
+            "images": ["assets/images/dresses/dress15.jpg", "assets/images/dresses/dress15_2.jpg", "assets/images/dresses/dress15_3.jpg", "assets/images/dresses/dress15_4.jpg"]
+        },
+        {
+            "name": "As If Plaid Mini Dress",
+            "price": "$78",
+            "mainImageUrl": "assets/images/dresses/dress16.jpg",
+            "description": "Plaid bustier mini dress from Loud Apparel. Made from a bold + bright allover plaid fabrication in a curve-skimming fit. Topped with bustier detailing at the chest. Features thin, adjustable shoulder straps that lead to a low, square back. Finished with a cut-out to the reverse and elastic banding. Pairs perfectly with the Loud Apparel As If Plaid Cropped Jacket.",
+            "images": ["assets/images/dresses/dress16.jpg", "assets/images/dresses/dress16_2.jpg", "assets/images/dresses/dress16_3.jpg", "assets/images/dresses/dress16_4.jpg"]
+        }
+
+    ],
+
+    "summer": [
+        {
+            "name": "Out From Under Easton Halter Bodysuit",
+            "price": "$29",
+            "mainImageUrl": "assets/images/summer/summer_bodysuit1.jpg",
+            "description": "Halter bodysuit by Loud Apparel’s Out From Under in a sleeveless turtleneck silhouette. Ribbed knit fabrication with a covered neck + collar and open square back. Halter strap complete with two snap buttons for easy removal. Full bottom coverage.",
+            "images": ["assets/images/summer/summer_bodysuit1.jpg", "assets/images/summer/summer_bodysuit1_2.jpg", "assets/images/summer/summer_bodysuit1_3.jpg", "assets/images/summer/summer_bodysuit1_4.jpg"]
+        },
+        {
+            "name": "Out From Under Sleeveless Bodysuit",
+            "price": "$34",
+            "mainImageUrl": "assets/images/summer/summer_bodysuit2.jpg",
+            "description": "Button front bodysuit by Out From Under, featuring a triangle back cutout. V-neck and high-cut leg construction in a soft knit. Finished with a square back and adjustable look + hoop closure.",
+            "images": ["assets/images/summer/summer_bodysuit2.jpg", "assets/images/summer/summer_bodysuit2_2.jpg", "assets/images/summer/summer_bodysuit2_3.jpg", "assets/images/summer/summer_bodysuit2_4.jpg"]
+        },
+        {
+            "name": "Out From Under Printed Tie-Front One-Piece Swimsuit",
+            "price": "$69",
+            "mainImageUrl": "assets/images/summer/summer_swimsuit1.jpg",
+            "description": "Retro-femme tie-front one-piece swimsuit by Out From Under, exclusively available at Loud Apparel. Featuring cutouts at front and back with a tie-front cinched bust with skinny adjustable shoulder straps + hook clasp closure at back. Moderate coverage; lined.",
+            "images": ["assets/images/summer/summer_swimsuit1.jpg", "assets/images/summer/summer_swimsuit1_2.jpg", "assets/images/summer/summer_swimsuit1_3.jpg", "assets/images/summer/summer_swimsuit1_4.jpg"]
+        },
+        {
+            "name": "Levi’s 501 Mid-Rise Denim Short – Trashed Black",
+            "price": "$59",
+            "mainImageUrl": "assets/images/summer/summer_shorts1.jpg",
+            "description": "Mid-rise denim jean short from Levi's with a frayed, cutoff hem. Rigid denim in a slim-cut, curve-skimming fit with 5-pocket detailing; signature Levi’s detailing at the back; button-zipper fly.",
+            "images": ["assets/images/summer/summer_shorts1.jpg", "assets/images/summer/summer_shorts1_2.jpg", "assets/images/summer/summer_shorts1_3.jpg", "assets/images/summer/summer_shorts1_4.jpg"]
+        },
+        {
+            "name": "Bandeau One-Piece Swimsuit",
+            "price": "$128",
+            "mainImageUrl": "assets/images/summer/summer_swimsuit2.jpg",
+            "description": "Strapless bandeau construction, free of hardware for a comfortable fit. High-cut silhouette with a moderately covered bottom. Finished with a ruffled neckline. Made ethically in Australia with ECONYL® 100% regenerated nylon fiber. GNASH swim constructs iconic-cut swimwear across scorching color, with a focus on minimal design.",
+            "images": ["assets/images/summer/summer_swimsuit2.jpg", "assets/images/summer/summer_swimsuit2_2.jpg", "assets/images/summer/summer_swimsuit2_3.jpg", "assets/images/summer/summer_swimsuit2_4.jpg"]
+        },
+        {
+            "name": "Out From Under Peek-A-Boo Ring One-Piece Swimsuit",
+            "price": "$69",
+            "mainImageUrl": "assets/images/summer/summer_swimsuit3_3.jpg",
+            "description": "Give beach days a jolt of sexy-retro style with this '80s-inspired one-piece swimsuit by Out From Under, only at Loud Apparel. Colorblocked ribbed style with a scoop neck and tank straps accented by large cutouts at stomach and back. Featuring ring connectors at sides for a 2-piece illusion construction complete with a hook clasp at back. Minimal coverage; lined.",
+            "images": ["assets/images/summer/summer_swimsuit3_3.jpg", "assets/images/summer/summer_swimsuit3_4.jpg", "assets/images/summer/summer_swimsuit3.jpg", "assets/images/summer/summer_swimsuit3_2.jpg"]
+        },
+        {
+            "name": "Striped Wrap Cropped Top",
+            "price": "$39",
+            "mainImageUrl": "assets/images/summer/summer_top1_2.jpg",
+            "description": "Striped cropped top in a wrap silhouette, by Loud Apparel. Made from a striped woven fabrication with a wrap-front construction + tie-belt closure at the waist. Topped with a plunging surplice neckline. Finished with short sleeves.",
+            "images": ["assets/images/summer/summer_top1_2.jpg", "assets/images/summer/summer_top1.jpg", "assets/images/summer/summer_top1_3.jpg", "assets/images/summer/summer_top1_4.jpg"]
+        },
+        {
+            "name": "Tammy Sheer Trench Coat",
+            "price": "$89",
+            "mainImageUrl": "assets/images/summer/summer_trench1.jpg",
+            "description": "Sleek + chic in this sheer trench coat from Loud Apparel. Made from a lightweight chiffon-like fabrication in a longline silhouette. Topped with a belted waist, pointed collar + matching lapel. Features an overlay at the chest. Finished with button-cuff long sleeves.",
+            "images": ["assets/images/summer/summer_trench1.jpg", "assets/images/summer/summer_trench1_2.jpg", "assets/images/summer/summer_trench1_3.jpg", "assets/images/summer/summer_trench1_4.jpg"]
+        },
+        {
+            "name": "Urban Renewal Remnants Linen Button-Down Shirt",
+            "price": "$49",
+            "mainImageUrl": "assets/images/summer/summer_shirt1.jpg",
+            "description": "Button-down linen shirt that’s been made from remnant fabric rolls in the USA. Lightweight linen in a button-down construction. Topped with a pointed collar + extra-long, wide short sleeves. Finished with a pocket at the left chest + pleat at the reverse.",
+            "images": ["assets/images/summer/summer_shirt1.jpg", "assets/images/summer/summer_shirt1_2.jpg", "assets/images/summer/summer_shirt1_3.jpg", "assets/images/summer/summer_shirt1_4.jpg"]
+        },
+        {
+            "name": "Markie Seamless Tube Top",
+            "price": "$18",
+            "mainImageUrl": "assets/images/summer/summer_top2.jpg",
+            "description": "Layer up with minimalist cool in this seamless tube top by Out From Under, available only at Loud Apparel. Strapless body-hugging silhouette in a stretchy rib knit with banded trim for a secure fit. Made with a seamless knitting technology, specially engineered to stretch to the perfect customized fit to your body.",
+            "images": ["assets/images/summer/summer_top2.jpg", "assets/images/summer/summer_top2_2.jpg", "assets/images/summer/summer_top2_3.jpg", "assets/images/summer/summer_top2_4.jpg"]
+        },
+        {
+            "name": "Kimchi Blue Riki Ribbed Cropped Top",
+            "price": "$39",
+            "mainImageUrl": "assets/images/summer/summer_top3.jpg",
+            "description": "Ultimate in throw-it-on-and go style with this ribbed cropped top from Kimchi Blue, available only at Loud Apparel. Made from a super soft ribbed knit in a wide-cut, cropped construction. Topped with a split V-neckline + dropped extra-wide long sleeves. Finished with inside-out seamed detailing throughout.",
+            "images": ["assets/images/summer/summer_top3.jpg", "assets/images/summer/summer_top3_2.jpg", "assets/images/summer/summer_top3_3.jpg", "assets/images/summer/summer_top3_4.jpg"]
+        },
+        {
+            "name": "Future State Wave Tee",
+            "price": "$34",
+            "mainImageUrl": "assets/images/summer/summer_shirt2.jpg",
+            "description": "Cotton t-shirt with an iconic tsunami graphic by Japanese artist Katsushika Hokusai at the front, by Future State. Light + drapey with a crew-neck, short sleeves + rolled hems.",
+            "images": ["assets/images/summer/summer_shirt2.jpg", "assets/images/summer/summer_shirt2_2.jpg", "assets/images/summer/summer_shirt2_3.jpg", "assets/images/summer/summer_shirt2_4.jpg"]
+        },
+        {
+            "name": "Tie-Front Bell-Sleeve Cropped Top",
+            "price": "$59",
+            "mainImageUrl": "assets/images/summer/summer_top4.jpg",
+            "description": "Tie a neat, little bow on this cropped top from Loud Apparel. Made from a woven fabrication in a slim-cut + casual fit cropped construction. Topped with a plunging neckline that leads to a tie-front closure. Finished with ultra-flared bell sleeves.",
+            "images": ["assets/images/summer/summer_top4.jpg", "assets/images/summer/summer_top4_2.jpg", "assets/images/summer/summer_top4_3.jpg", "assets/images/summer/summer_top4_4.jpg"]
+        },
+        {
+            "name": "BDG Pinup High-Rise Denim Short Striped",
+            "price": "$49",
+            "mainImageUrl": "assets/images/summer/summer_shorts2.jpg",
+            "description": "Modern pinup high-rise denim short-short available exclusively at Loud Apparel by BDG. In a cheeky, body-hugging fit made of super stretchy denim equipped with 3 pockets, belt loops and a button-zipper fly. Finished with a hem that can be rolled up or down.",
+            "images": ["assets/images/summer/summer_shorts2.jpg", "assets/images/summer/summer_shorts2_2.jpg", "assets/images/summer/summer_shorts2_3.jpg", "assets/images/summer/summer_shorts2_4.jpg"]
+        }
+    ],
+
+    "winter": [
+        {
+            "name": "Allie Quilted Puffer Cardigan",
+            "price": "$49",
+            "mainImageUrl": "assets/images/winter/winter_jacket5_3.jpg",
+            "description": "Layering gets a new look with this cropped, quilted puffer cardigan by Out From Under. Cozy, open jacket in a soft knit with quilted seaming, featuring an open silhouette that hits at hips.",
+            "images": ["assets/images/winter/winter_jacket5_3.jpg", "assets/images/winter/winter_jacket5.jpg", "assets/images/winter/winter_jacket5_2.jpg", "assets/images/winter/winter_jacket5_4.jpg"]
+        },
+        {
+            "name": "Easton Faux Suede Sherpa Jacket",
+            "price": "$129",
+            "mainImageUrl": "assets/images/winter/winter_jacket4_4.jpg",
+            "description": "Classic + cozy sherpa jacket from Loud Apparel. Faux suede jacket lined with sherpa in a button-down silhouette. Topped with a v-neckline, rolled collar + lapel. Exposed-seam stitching throughout; slip pockets at the hips.",
+            "images": ["assets/images/winter/winter_jacket4_4.jpg", "assets/images/winter/winter_jacket4.jpg", "assets/images/winter/winter_jacket4_2.jpg", "assets/images/winter/winter_jacket4_3.jpg"]
+        },
+        {
+            "name": "Alpha Industries MA-1 Natus Bomber Jacket",
+            "price": "$165",
+            "mainImageUrl": "assets/images/winter/winter_jacket1.jpg",
+            "description": "Mid-weight military-inspired bomber jacket from Alpha Industries. Made from a luxe-look nylon + topped with a removable knit hood. Finished with zip front, pocket details + ribbed trim throughout. Alpha was launched into greatness back in 1959 when the US Department of Defense recruited the American brand to redesign its military jackets.",
+            "images": ["assets/images/winter/winter_jacket1.jpg", "assets/images/winter/winter_jacket1_2.jpg", "assets/images/winter/winter_jacket1_3.jpg", "assets/images/winter/winter_jacket1_4.jpg"]
+        },
+        {
+            "name": "Remade Plaid Flannel Hooded Button-Down Shirt",
+            "price": "$79",
+            "mainImageUrl": "assets/images/winter/winter_flanel1.jpg",
+            "description": "Casually cool button-down hooded flannel shirt that’s been expertly upcycled by our Urban Renewal team. Topped with long sleeves + a drawstring hoodie. Please note that as each item has been updated by hand, each piece is truly one of a kind. The item you receive may vary from the item you see pictured here. We’ll find our favorite and deliver right to you!",
+            "images": ["assets/images/winter/winter_flanel1.jpg", "assets/images/winter/winter_flanel1_2.jpg", "assets/images/winter/winter_flanel1_3.jpg", "assets/images/winter/winter_flanel1_4.jpg"]
+        },
+        {
+            "name": "Addison Plaid Straight-Leg Jean",
+            "price": "$65",
+            "mainImageUrl": "assets/images/winter/winter_pants1.jpg",
+            "description": "Plaid printed high-rise jean from BDG. Rigid cotton fabric with a straight-leg slightly slouchy fit through the hips that hits below the ankle. Zip fly; 5-pocket detailing.",
+            "images": ["assets/images/winter/winter_pants1.jpg", "assets/images/winter/winter_pants1_2.jpg", "assets/images/winter/winter_pants1_3.jpg", "assets/images/winter/winter_pants1_4.jpg"]
+        },
+        {
+            "name": "Carmella Cozy Reversible Coat",
+            "price": "$79",
+            "mainImageUrl": "assets/images/winter/winter_coat1.jpg",
+            "description": "The coziest jacket you'll wear all winter, from Loud Apparel. In a super soft fuzzy construction featuring two colors for reversible wear. Cut in an oversized, long-line construction. Finished with an oversized hood + drop long sleeves.",
+            "images": ["assets/images/winter/winter_coat1.jpg", "assets/images/winter/winter_coat1_2.jpg", "assets/images/winter/winter_coat1_3.jpg", "assets/images/winter/winter_coat1_4.jpg"]
+        },
+        {
+            "name": "Hand Crochet Loop Scarf",
+            "price": "$34",
+            "mainImageUrl": "assets/images/winter/winter_scarf1.jpg",
+            "description": "Envelope yourself in soft texture with this hand crochet infinity scarf from Loud Apparel. Loose acrylic knit in a wide crochet stitch with long end tassels for a hobo-chic look.",
+            "images": ["assets/images/winter/winter_scarf1.jpg", "assets/images/winter/winter_scarf1_2.jpg", "assets/images/winter/winter_scarf1_3.jpg"]
+        },
+        {
+            "name": "Cropped Teddy Jacket",
+            "price": "$89",
+            "mainImageUrl": "assets/images/winter/winter_jacket2.jpg",
+            "description": "Like a teddy bear in this jacket from Loud Apparel. Built from a super soft Sherpa-like outer in a cropped silhouette. Features a zipper closure front + a pointed collar. Finished with dropped long sleeves, large pouch pockets at the hips + an elastic hem for the perfect fit.",
+            "images": ["assets/images/winter/winter_jacket2.jpg", "assets/images/winter/winter_jacket2_2.jpg", "assets/images/winter/winter_jacket2_3.jpg", "assets/images/winter/winter_jacket2_4.jpg"]
+        },
+        {
+            "name": "Graphic Leopard Intarsia Beanie",
+            "price": "$20",
+            "mainImageUrl": "assets/images/winter/winter_beanie1.jpg",
+            "description": "Bring a fierce edge to cold days with this leopard patterned, intarsia knit beanie, found only at Loud Apparel. Cozy knit standup beanie with a contrast banded, ribbed foldup cuff.",
+            "images": ["assets/images/winter/winter_beanie1.jpg", "assets/images/winter/winter_beanie1_2.jpg", "assets/images/winter/winter_beanie1_2.jpg"]
+        },
+        {
+            "name": "Vintage Cropped Camo Pant",
+            "price": "$59",
+            "mainImageUrl": "assets/images/winter/winter_pants2.jpg",
+            "description": "Vintage mid-rise camo pant that’s been expertly sourced by our Renewal team. Made from a vintage cotton in a classic camo pattern with a relaxed-fit, cropped straight-leg silhouette. Topped with a button-zipper fly. Finished with side-entry pockets at the hips, camo pockets on the leg + elastic ankle cuffs.",
+            "images": ["assets/images/winter/winter_pants2.jpg", "assets/images/winter/winter_pants2_2.jpg", "assets/images/winter/winter_pants2_3.jpg", "assets/images/winter/winter_pants2_4.jpg"]
+        },
+        {
+            "name": "Baggy Denim Trucker Jacket",
+            "price": "$98",
+            "mainImageUrl": "assets/images/winter/winter_jacket3.jpg",
+            "description": "Slouchy-fit denim trucker jacket from Levi’s. Made from a sturdy twill in a classic button-down construction topped with a peak collar + button-flap pockets at the chest. Finished with long button-cuff sleeves, side-entry pockets + a seamed panel construction.",
+            "images": ["assets/images/winter/winter_jacket3.jpg", "assets/images/winter/winter_jacket3_2.jpg", "assets/images/winter/winter_jacket3_3.jpg", "assets/images/winter/winter_jacket3_4.jpg"]
+        },
+        {
+            "name": "Lobreak 3 Stripes Leggings",
+            "price": "$24",
+            "mainImageUrl": "assets/images/winter/winter_leggings1.jpg",
+            "description": "Built from a soft + stretchy fabrication in a body-contouring fit. Topped with a banded waist. Finished with a throwback trefoil patch logo at the ankle and the iconic adidas 3 stripe at the sides",
+            "images": ["assets/images/winter/winter_leggings1.jpg", "assets/images/winter/winter_leggings1_2.jpg", "assets/images/winter/winter_leggings1_3.jpg", "assets/images/winter/winter_leggings1_4.jpg"]
+        },
+        {
+            "name": "Drop-Sleeve Fisherman Sweater",
+            "price": "$49",
+            "mainImageUrl": "assets/images/winter/winter_sweater1.jpg",
+            "description": "Absolutely essential knit sweater from Loud Apparel’s own better-than-basic basics label, BDG. Made from a so soft knit in a slightly wide-cut, relaxed-fit construction. Topped with a wide ribbed crew-neck + dropped long sleeves. Finished with ribbed trim throughout.",
+            "images": ["assets/images/winter/winter_sweater1.jpg", "assets/images/winter/winter_sweater1_2.jpg", "assets/images/winter/winter_sweater1_3.jpg", "assets/images/winter/winter_sweater1_4.jpg"]
+        },
+        {
+            "name": "Brushed Woven Blanket Scarf",
+            "price": "$16",
+            "mainImageUrl": "assets/images/winter/winter_scarf2.jpg",
+            "description": "Stay cozy in this soft + perfectly worn-in woven blanket scarf. Cut long + wide in a soft weave that bundles easily. Finished with raw cut edges for a distressed touch we love. Loud Apparel exclusive.",
+            "images": ["assets/images/winter/winter_scarf2.jpg", "assets/images/winter/winter_scarf2_2.jpg", "assets/images/winter/winter_scarf2_3.jpg"]
+        },
+        {
+            "name": "Sorel Joan Of Arctic Suede Boot",
+            "price": "$198",
+            "mainImageUrl": "assets/images/winter/winter_boots1.jpg",
+            "description": "Conquer stormy weather with ease in these heavy duty boots from Sorel. Waterproof suede boots cut mid-calf with a lace-up entry held in place by strong d-rings and lined with felt and a plush faux fur cuff. Constructed with a handcrafted seam-sealed rubber shell toe to leave your feet warm and dry no matter the conditions while a durable vulcanized herringbone outsole keeps you slip-free on any surface.",
+            "images": ["assets/images/winter/winter_boots1.jpg", "assets/images/winter/winter_boots1_2.jpg", "assets/images/winter/winter_boots1_3.jpg", "assets/images/winter/winter_boots1_4.jpg"]
+        }
+        
+    ],
+
+    "professional": [
+        {
+            "name": "Double-Breasted Wool Blazer",
+            "price": "$69",
+            "mainImageUrl": "assets/images/professional/professional_blazer1.jpg",
+            "description": "Classic double-breasted wool blazer from Loud Apparel. Made from a timeless wool in a casual-fit, double-breasted silhouette. Topped with a pointed collar + matching lapels. Finished with a plunging v-neckline, trouser pockets at the hips + long sleeves.",
+            "images": ["assets/images/professional/professional_blazer1.jpg", "assets/images/professional/professional_blazer1_2.jpg", "assets/images/professional/professional_blazer1_3.jpg", "assets/images/professional/professional_blazer1_4.jpg"]
+        },
+        {
+            "name": "Pink Double-Breasted Striped Blazer",
+            "price": "$76",
+            "mainImageUrl": "assets/images/professional/professional_blazer2.jpg",
+            "description": "‘90s-inspired double-breasted striped blazer from Loud Apparel. In a relaxed-fit, double-breasted construction. Topped with a pointed collar + matching lapels. Finished with dropped long sleeves + top-entry pockets at the hips.",
+            "images": ["assets/images/professional/professional_blazer2.jpg", "assets/images/professional/professional_blazer2_2.jpg", "assets/images/professional/professional_blazer2_3.jpg", "assets/images/professional/professional_blazer2_4.jpg"]
+        },
+        {
+            "name": "Checkered Double-Breasted Blazer",
+            "price": "$72",
+            "mainImageUrl": "assets/images/professional/professional_blazer3_3.jpg",
+            "description": "‘90s-inspired double-breasted blazer from Loud Apparel. Bold checkered fabric in a relaxed-fit silhouette. Pointed collar + matching lapels; trouser pockets at the hips.",
+            "images": ["assets/images/professional/professional_blazer3_3.jpg", "assets/images/professional/professional_blazer3.jpg", "assets/images/professional/professional_blazer3_2.jpg", "assets/images/professional/professional_blazer3_4.jpg"]
+        },{
+            "name": "Plaid Notch Pelmet Mini Skirt",
+            "price": "$54",
+            "mainImageUrl": "assets/images/professional/professional_skirt2.jpg",
+            "description": "Perfect plaid pelmet mini skirt from Loud Apparel. Seam-paneled plaid fabric in a high-rise silhouette with a straight-fit. Cut short in a mini length with side-notch detailing at the hem; hidden zipper at the back.",
+            "images": ["assets/images/professional/professional_skirt2.jpg", "assets/images/professional/professional_skirt2_2.jpg", "assets/images/professional/professional_skirt2_3.jpg", "assets/images/professional/professional_skirt2_4.jpg"]
+        },
+        {
+            "name": "Twig Frayed High-Rise Skinny Jean – Black",
+            "price": "$59",
+            "mainImageUrl": "assets/images/professional/professional_pants1.jpg",
+            "description": "5-pocket super-stretch jeans in our favorite skinny fit, from BDG. High-rise cut sits just above the hip and is fitted down through the thigh + tapered through the calf for a super-skinny leg with added spandex for stretch + movement. In premium black denim with raw-edge frayed stepped ankle hems. 5-pocket; zip fly.",
+            "images": ["assets/images/professional/professional_pants1.jpg", "assets/images/professional/professional_pants1_2.jpg", "assets/images/professional/professional_pants1_3.jpg", "assets/images/professional/professional_pants1_4.jpg"]
+        },
+        {
+            "name": "Surplice Gingham Jumpsuit",
+            "price": "$70",
+            "mainImageUrl": "assets/images/professional/professional_jumpsuit1.jpg",
+            "description": "Gingham jumpsuit with surplice detailing, by Loud Apparel. Woven fabrication in a sleeveless silhouette with a defined waist construction that features surplice wrap accents. Topped with a v-neckline. Finished with a culottes pant bottom. Hidden zipper to the reverse.",
+            "images": ["assets/images/professional/professional_jumpsuit1.jpg", "assets/images/professional/professional_jumpsuit1_2.jpg", "assets/images/professional/professional_jumpsuit1_3.jpg", "assets/images/professional/professional_jumpsuit1_4.jpg"]
+        },
+        {
+            "name": "Drawstring Safari Button-Down Shirt",
+            "price": "$49",
+            "mainImageUrl": "assets/images/professional/professional_blouse1.jpg",
+            "description": "Go exploring in this button-down shirt with a drawstring waist, by Loud Apparel. Made from a woven fabrication with a button-down closure. Features an adjustable drawstring waist. Topped with a v-neckline + pointed collar with a matching lapel. Finished with dropped short sleeves + a button flap pocket at the left chest.",
+            "images": ["assets/images/professional/professional_blouse1.jpg", "assets/images/professional/professional_blouse1_2.jpg", "assets/images/professional/professional_blouse1_3.jpg", "assets/images/professional/professional_blouse1_4.jpg"]
+        },
+        {
+            "name": "Sena Strapless Jumpsuit",
+            "price": "$69",
+            "mainImageUrl": "assets/images/professional/professional_jumpsuit2.jpg",
+            "description": "Sleek + chic in this strapless jumpsuit from Loud Apparel. Made from a stretchy yet structured fabrication in a pull-on silhouette. In a seamed panel construction that’s topped with a straight neckline + defined waistline. Finished with a straight-leg, slightly flared + cropped pant leg bottom.",
+            "images": ["assets/images/professional/professional_jumpsuit2.jpg", "assets/images/professional/professional_jumpsuit2_2.jpg", "assets/images/professional/professional_jumpsuit2_3.jpg", "assets/images/professional/professional_jumpsuit2_4.jpg"]
+        },
+        {
+            "name": "Twig High-Rise Skinny Jean - Grey",
+            "price": "$59",
+            "mainImageUrl": "assets/images/professional/professional_pants3.jpg",
+            "description": "5-pocket super-stretch jeans from BDG in washed and faded grey denim. High-rise waist and fitted through the skinny leg. 5-pocket; zip fly.",
+            "images": ["assets/images/professional/professional_pants3.jpg", "assets/images/professional/professional_pants3_2.jpg", "assets/images/professional/professional_pants3_3.jpg", "assets/images/professional/professional_pants3_4.jpg"]
+        },
+        {
+            "name": "Leo Cropped Button-Down Shirt",
+            "price": "$59",
+            "mainImageUrl": "assets/images/professional/professional_shirt1.jpg",
+            "description": "So much better than basic in this cropped button-down shirt from Loud Apparel. Made from a slightly sheer fabrication in a seamed panel construction + slim-cut fit. Topped with a button-down placket + pointed collar. Finished with button-cuff long sleeves + a cropped hem.",
+            "images": ["assets/images/professional/professional_shirt1.jpg", "assets/images/professional/professional_shirt1_2.jpg", "assets/images/professional/professional_shirt1_3.jpg"]
+        },
+        {
+            "name": "Pep Squad Wrap Skirt",
+            "price": "$49",
+            "mainImageUrl": "assets/images/professional/professional_skirt1.jpg",
+            "description": "Put some pep in your step with this skirt from Loud Apparel. Built in a high-rise, straight-fit construction. Features a wrap front + button-down closure at the side waist. Finished with a slightly askew hemline.",
+            "images": ["assets/images/professional/professional_skirt1.jpg", "assets/images/professional/professional_skirt1_2.jpg", "assets/images/professional/professional_skirt1_3.jpg", "assets/images/professional/professional_skirt1_4.jpg"]
+        },
+        {
+            "name": "Black Slouchy Bag",
+            "price": "$220",
+            "mainImageUrl": "assets/images/professional/professional_handbag1.jpg",
+            "description": "Slouchy + simple but oh so sophisticated purse from BAGGU. Natural-milled leather construction for a soft texture in an unstructured silhouette, with two handles at different carrying lengths. Features an interior zipper pocket; lined.",
+            "images": ["assets/images/professional/professional_handbag1.jpg", "assets/images/professional/professional_handbag1_2.jpg", "assets/images/professional/professional_handbag1_3.jpg", "assets/images/professional/professional_handbag1_4.jpg"]
+        },
+        {
+            "name": "Twig High-Rise Skinny Jean - Rinsed Denim",
+            "price": "$59",
+            "mainImageUrl": "assets/images/professional/professional_pants2.jpg",
+            "description": "Super-skinny 5-pocket Twig jean in our deep, dark rinsed denim wash from BDG. In a go-to skinny fit with a high-rise waist that sits just above the hip. Finished with a zip fly and 5 pockets. Loud Apparel exclusive.",
+            "images": ["assets/images/professional/professional_pants2.jpg", "assets/images/professional/professional_pants2_2.jpg", "assets/images/professional/professional_pants2_3.jpg", "assets/images/professional/professional_pants2_4.jpg"]
+        }
+    ],
+
+    "intimates": [
+        {
+            "name": "Ivory Multi Laser Cut Hipster",
+            "price": "$8",
+            "mainImageUrl": "assets/images/intimates/intimates_hipster1.jpg",
+            "description": "Comfy, essential hipster undies in soft microfiber with laser-cut leg openings and a banded waist. Sits just below the hip.",
+            "images": ["assets/images/intimates/intimates_hipster1.jpg", "assets/images/intimates/intimates_hipster1_2.jpg", "assets/images/intimates/intimates_hipster1_3.jpg", "assets/images/intimates/intimates_hipster1_4.jpg"]
+        },
+        {
+            "name": "Jojo Oversized Thermal Button-Front Top",
+            "price": "$44",
+            "mainImageUrl": "assets/images/intimates/intimates_top1.jpg",
+            "description": "Look so good without even trying in this effortlessly versatile thermal button-front top by Out From Under. Long sleeve, slouchy fit silhouette with dropped shoulder seams, shirttail hem and button closure down front. Wear it as many ways as you can think of – as a cardigan, tied in front, layered with dresses, tucked into denim or even backwards for a cool take on a silhouette we love.",
+            "images": ["assets/images/intimates/intimates_top1.jpg", "assets/images/intimates/intimates_top1_2.jpg", "assets/images/intimates/intimates_top1_3.jpg", "assets/images/intimates/intimates_top1_4.jpg"]
+        },
+        {
+            "name": "Nina Laser-Cut Lace-Back Thong",
+            "price": "$8",
+            "mainImageUrl": "assets/images/intimates/intimates_thong1.jpg",
+            "description": "Sleek, no-show microfiber thong undie with scalloped, sheer floral lace along the cheeky back and a seamless front.",
+            "images": ["assets/images/intimates/intimates_thong1.jpg", "assets/images/intimates/intimates_thong1_2.jpg", "assets/images/intimates/intimates_thong1_3.jpg", "assets/images/intimates/intimates_thong1_4.jpg"]
+        },
+        {
+            "name": "Out From Under Lace Halter Bra",
+            "price": "$16",
+            "mainImageUrl": "assets/images/intimates/intimates_bra3.jpg",
+            "description": "Sweet, stretchy lace halter bra by Out From Under with a comfy strap that goes behind the neck. Adjustable hook & eye closure at the back. Lined.",
+            "images": ["assets/images/intimates/intimates_bra3.jpg", "assets/images/intimates/intimates_bra3_2.jpg", "assets/images/intimates/intimates_bra3_3.jpg", "assets/images/intimates/intimates_bra3_4.jpg"]
+        },
+        {
+            "name": "Frankie Oversized Thermal Tee",
+            "price": "$34",
+            "mainImageUrl": "assets/images/intimates/intimates_top2.jpg",
+            "description": "Give your look cozy-cool texture with this slouchy v-neck waffle tee by Out From Under. Oversized fit with short sleeves + curved, stepped hems. Rendered in a lightweight thermal knit that adds an effortless touch to every look, whether you're lounging at home or pairing with denim to explore with your besties.",
+            "images": ["assets/images/intimates/intimates_top2.jpg", "assets/images/intimates/intimates_top2_2.jpg", "assets/images/intimates/intimates_top2_3.jpg", "assets/images/intimates/intimates_top2_4.jpg"]
+        },
+        {
+            "name": "Back Then Seamless Bandeau Bra",
+            "price": "$16",
+            "mainImageUrl": "assets/images/intimates/intimates_bra1.jpg",
+            "description": "Layer up or wear bare in this seamless rib knit bandeau by Out From Under. Strapless bandeau that gives every look a nostalgic touch in a stretchy rib knit with banded trim for a secure fit. Made with a seamless knitting technology that produces garments that appear small and are specially engineered to stretch to the perfect fit. Construction provides a smooth look, all-day comfort and a fit individualized to you.",
+            "images": ["assets/images/intimates/intimates_bra1.jpg", "assets/images/intimates/intimates_bra1_2.jpg", "assets/images/intimates/intimates_bra1_3.jpg", "assets/images/intimates/intimates_bra1_4.jpg"]
+        },
+        {
+            "name": "Light Yellow James Jogger Pant",
+            "price": "$49",
+            "mainImageUrl": "assets/images/intimates/intimates_pants1.jpg",
+            "description": "Laid-back + low-rise lounging with these jogger pants by Out From Under. Relaxed fit with tapered legs featuring long johns seaming at the bum. Complete with a roomy side pockets and stretchy rib knit banding at drawstring waist + cuffs.",
+            "images": ["assets/images/intimates/intimates_pants1.jpg", "assets/images/intimates/intimates_pants1_2.jpg", "assets/images/intimates/intimates_pants1_3.jpg", "assets/images/intimates/intimates_pants1_4.jpg"]
+        },
+        {
+            "name": "Elsie Cinched Cutout Jumpsuit",
+            "price": "$49",
+            "mainImageUrl": "assets/images/intimates/intimates_jumpsuit1.jpg",
+            "description": "Throw on and go with this effortlessly breezy jumpsuit by Out From Under, found only at Loud Apparel. Featuring a v-neck with a cutout at stomach, accented with tied ruched seaming that you can customize to your look. Made with a nipped-in waist and relaxed legs that taper in at cinched cuffs. In a soft, crinkled fabric complete with a straight back and skinny shoulder straps.",
+            "images": ["assets/images/intimates/intimates_jumpsuit1.jpg", "assets/images/intimates/intimates_jumpsuit1_2.jpg", "assets/images/intimates/intimates_jumpsuit1_3.jpg"]
+        },
+        {
+            "name": "Nina Laser-Cut Lace-Back Thong - Black",
+            "price": "$8",
+            "mainImageUrl": "assets/images/intimates/intimates_thong2.jpg",
+            "description": "Sleek, no-show microfiber thong undie with scalloped, sheer floral lace along the cheeky back and a seamless front.",
+            "images": ["assets/images/intimates/intimates_thong2.jpg", "assets/images/intimates/intimates_thong2_2.jpg", "assets/images/intimates/intimates_thong2_3.jpg", "assets/images/intimates/intimates_thong2_4.jpg"]
+        },
+        {
+            "name": "Olive Arianna Lace Thong",
+            "price": "$8",
+            "mainImageUrl": "assets/images/intimates/intimates_thong3_2.jpg",
+            "description": "Sleek thong undie with sheer lace along the cheeky back and a seamless front.",
+            "images": ["assets/images/intimates/intimates_thong3_2.jpg", "assets/images/intimates/intimates_thong3.jpg", "assets/images/intimates/intimates_thong3_3.jpg", "assets/images/intimates/intimates_thong3_4.jpg"]
+        },
+        {
+            "name": "Lace Padded Fusion Triangle Bra",
+            "price": "$20",
+            "mainImageUrl": "assets/images/intimates/intimates_bra2.jpg",
+            "description": "Soft + sexy bra by Out From Under with padded triangle cups for subtle lift. Trimmed with floral lace over flat, fused seams. Topped with dual cross-back straps, with a stretchy bust band and adjustable closure.",
+            "images": ["assets/images/intimates/intimates_bra2.jpg", "assets/images/intimates/intimates_bra2_2.jpg", "assets/images/intimates/intimates_bra2_3.jpg", "assets/images/intimates/intimates_bra2_4.jpg"]
+        },
+        {
+            "name": "Blaire Strappy Seamless Bodysuit",
+            "price": "$29",
+            "mainImageUrl": "assets/images/intimates/intimates_bodysuit1.jpg",
+            "description": "Stretchy + seamless bodysuit by Out From Under accented with a strappy front for a cutout effect. Full coverage one-piece in a straight neck + back silhouette with adjustable spaghetti straps over the shoulders. Finished with a lightly ribbed hemline.",
+            "images": ["assets/images/intimates/intimates_bodysuit1.jpg", "assets/images/intimates/intimates_bodysuit1_2.jpg", "assets/images/intimates/intimates_bodysuit1_3.jpg", "assets/images/intimates/intimates_bodysuit1_4.jpg"]
+        },
+        {
+            "name": "White Cameron Block Short",
+            "price": "$29",
+            "mainImageUrl": "assets/images/intimates/intimates_short1.jpg",
+            "description": "Essential lounge short by Out From Under in a soft + fuzzy fabric blend. Wide ribbed waist and side panels for a contrast effect, with an elastic drawstring for comfortable closure. Short-shorts length.",
+            "images": ["assets/images/intimates/intimates_short1.jpg", "assets/images/intimates/intimates_short1_2.jpg", "assets/images/intimates/intimates_short1_3.jpg", "assets/images/intimates/intimates_short1_4.jpg"]
+        },
+        {
+            "name": "White Sunshine Slip Dress",
+            "price": "$44",
+            "mainImageUrl": "assets/images/intimates/intimates_dress1.jpg",
+            "description": "Bohemian slip dress featuring embroidered trim details, by Out From Under. Made from a woven fabrication in an empire-waist construction. Topped with a v-neckline + thin shoulder straps that lead to a low, square back with a tassel tie closure. Finished with crochet trim detailing throughout.",
+            "images": ["assets/images/intimates/intimates_dress1.jpg", "assets/images/intimates/intimates_dress1_2.jpg", "assets/images/intimates/intimates_dress1_3.jpg", "assets/images/intimates/intimates_dress1_4.jpg"]
+        },
+        {
+            "name": "Lana Strappy Back Triangle Bra",
+            "price": "$19",
+            "mainImageUrl": "assets/images/intimates/intimates_bra4.jpg",
+            "description": "Ultimate femme vibes with this triangle bra from Out From Under, available exclusively at Loud Apparel. With soft triangle cups lined with flirty lace, perfect to peek out of a plunging v-neck tee. With dual tank + cross-back straps + a stretchy elastic bust band for an easy, pull-on fit.",
+            "images": ["assets/images/intimates/intimates_bra4.jpg", "assets/images/intimates/intimates_bra4_2.jpg", "assets/images/intimates/intimates_bra4_3.jpg", "assets/images/intimates/intimates_bra4_4.jpg"]
+        }
+    ],
+
+    "accessories": [
+        {
+            "name": "BDG Plaid Bucket Hat",
+            "price": "$24",
+            "mainImageUrl": "assets/images/accessories/accessories_bucketHat1.jpg",
+            "description": "Throwback bucket hat in allover plaid, from BDG",
+            "images": ["assets/images/accessories/accessories_bucketHat1.jpg", "assets/images/accessories/accessories_bucketHat1_2.jpg", "assets/images/accessories/accessories_bucketHat1_3.jpg", "assets/images/accessories/accessories_bucketHat1_4.jpg"]
+        },
+        {
+            "name": "Ball Bead Sunglasses Chain",
+            "price": "$14",
+            "mainImageUrl": "assets/images/accessories/accessories_glassesChain1.jpg",
+            "description": "Never lose sight of your sunnies with this dainty + delicate sunglasses chain from Loud Apparel. Elongated gold ball bead chain hangs from the neck and grippy looped ends attach to the sunglass arms for hands-free carrying.",
+            "images": ["assets/images/accessories/accessories_glassesChain1.jpg", "assets/images/accessories/accessories_glassesChain1_2.jpg", "assets/images/accessories/accessories_glassesChain1_3.jpg", "assets/images/accessories/accessories_glassesChain1_4.jpg"]
+        },
+        {
+            "name": "BAGGU Drawstring Backpack",
+            "price": "$42",
+            "mainImageUrl": "assets/images/accessories/accessories_backpack1.jpg",
+            "description": "Make your daily commute + trips to class so easy with this drawstring backpack from BAGGU. In a crisp canvas made from 65% recycled cotton with a drawstring, flap-front silhouette + button closure. Perfectly roomy with a top carrying handle and adjustable shoulder straps.",
+            "images": ["assets/images/accessories/accessories_backpack1.jpg", "assets/images/accessories/accessories_backpack1_2.jpg", "assets/images/accessories/accessories_backpack1_3.jpg", "assets/images/accessories/accessories_backpack1_4.jpg"]
+        },
+        {
+            "name": "Chain Anklet Trio Set",
+            "price": "$16",
+            "mainImageUrl": "assets/images/accessories/accessories_anklet1.jpg",
+            "description": "Never let go of the ‘90s with these vintage-inspired chain anklets, found exclusively at Loud Apparel. Set of 3 anklets in varied chain link strands with a shiny finish. All complete with a lobster clasp closure and extender chain.",
+            "images": ["assets/images/accessories/accessories_anklet1.jpg", "assets/images/accessories/accessories_anklet1_2.jpg"]
+        },
+        {
+            "name": "Coastal Round Sunglasses",
+            "price": "$16",
+            "mainImageUrl": "assets/images/accessories/accessories_sunglasses1.jpg",
+            "description": "Retro-cool round sunnies that top off every look to effortless perfection. Round plastic frame with a keyhole nose bridge and screw detailing at temples. Finished with 100% UVA/UVB sun protection.",
+            "images": ["assets/images/accessories/accessories_sunglasses1.jpg", "assets/images/accessories/accessories_sunglasses1_2.jpg", "assets/images/accessories/accessories_sunglasses1_3.jpg"]
+        },
+        {
+            "name": "Border Printed Striped Kimono",
+            "price": "$44",
+            "mainImageUrl": "assets/images/accessories/accessories_kimono1.jpg",
+            "description": "A boho staple done effortlessly with this striped printed kimono. Light, breeze kimono with an open construction featuring short sleeves and raw, fringed edges, accented with floral print around edges.",
+            "images": ["assets/images/accessories/accessories_kimono1.jpg", "assets/images/accessories/accessories_kimono1_2.jpg", "assets/images/accessories/accessories_kimono1_3.jpg"]
+        },
+        {
+            "name": "Rainbow Braid Ring Set",
+            "price": "$10",
+            "mainImageUrl": "assets/images/accessories/accessories_hairRings1.jpg",
+            "description": "Add slick shine to your look with these metal braid rings. Set of 10 rings cut slim in a shiny, oil slick finish that can be integrated into your braided style for an elaborately cool touch.",
+            "images": ["assets/images/accessories/accessories_hairRings1.jpg", "assets/images/accessories/accessories_hairRings1_2.jpg"]
+        },
+        {
+            "name": "Beyond Retro Leather Tote Bag",
+            "price": "$45",
+            "mainImageUrl": "assets/images/accessories/accessories_toteBag1.jpg",
+            "description": "Essential oversized tote bag from Beyond Retro upcycled from deadstock vintage leather. Though similar to what you see here, each bag is made from vintage leather and may vary slightly from piece to piece.",
+            "images": ["assets/images/accessories/accessories_toteBag1.jpg", "assets/images/accessories/accessories_toteBag1_2.jpg", "assets/images/accessories/accessories_toteBag1_3.jpg", "assets/images/accessories/accessories_toteBag1_4.jpg"]
+        },
+        {
+            "name": "Lightweight Over-The-Knee Sock",
+            "price": "$14",
+            "mainImageUrl": "assets/images/accessories/accessories_sock1.jpg",
+            "description": "Ace your style game with this buttery soft, over-the-knee sock. Stretchy knit lightweight sock with a banded cuff to stay put above knee all day long.",
+            "images": ["assets/images/accessories/accessories_sock1.jpg", "assets/images/accessories/accessories_sock1_2.jpg", "assets/images/accessories/accessories_sock1_3.jpg", "assets/images/accessories/accessories_sock1_4.jpg"]
+        },
+        {
+            "name": "Wide Net Fishnet Tight",
+            "price": "$12",
+            "mainImageUrl": "assets/images/accessories/accessories_tights1.jpg",
+            "description": "Keep your style up to date with these wide cut fishnet tights by Out From Under. Our favorite new layering trick, paired with torn up denim that shows off the mesh for a new take on an old school look we love.",
+            "images": ["assets/images/accessories/accessories_tights1.jpg", "assets/images/accessories/accessories_tights1_2.jpg", "assets/images/accessories/accessories_tights1_3.jpg", "assets/images/accessories/accessories_tights1_4.jpg"]
+        },
+        {
+            "name": "Ecote Metal-Tipped Leather Belt",
+            "price": "$29",
+            "mainImageUrl": "assets/images/accessories/accessories_belt1.jpg",
+            "description": "Soft, genuine leather belt from Loud Apparel's boho-chic Ecote label with an embossed metal tip and buckle. Looks great paired with your favorite dress or cutoffs. Please note this belt is sized to fit at high waist.",
+            "images": ["assets/images/accessories/accessories_belt1.jpg", "assets/images/accessories/accessories_belt1_2.jpg", "assets/images/accessories/accessories_belt1_3.jpg", "assets/images/accessories/accessories_belt1_4.jpg"]
+        },
+        {
+            "name": "Nubby Woven Panama Hat",
+            "price": "$34",
+            "mainImageUrl": "assets/images/accessories/accessories_hat1.jpg",
+            "description": "Instant effortless cool that makes the look in this slub weave panama hat. Made in a nubby, textured slub weave with a structured, dimpled crown and flat brim extending around base, complete with a faux leather accent strap.",
+            "images": ["assets/images/accessories/accessories_hat1.jpg", "assets/images/accessories/accessories_hat1_2.jpg", "assets/images/accessories/accessories_hat1_3.jpg", "assets/images/accessories/accessories_hat1_4.jpg"]
+        },
+        {
+            "name": "Classic Bandana - Yellow",
+            "price": "$10",
+            "mainImageUrl": "assets/images/accessories/accessories_bandana1.jpg",
+            "description": "Vintage-inspired bandana cut square with the classic western pattern that goes perfectly with everything. Perfect knotted around your neck, as a headband or strung around a bag strap for a rustic take on a trend we love.",
+            "images": ["assets/images/accessories/accessories_bandana1.jpg", "assets/images/accessories/accessories_bandana1_2.jpg", "assets/images/accessories/accessories_bandana1_3.jpg"]
+        },
+        {
+            "name": "Slim Oval Metal Sunglasses",
+            "price": "$16",
+            "mainImageUrl": "assets/images/accessories/accessories_sunglasses2.jpg",
+            "description": "Retro modern sunglasses exclusively from Loud Apparel. Round tinted lenses are 100% UV protected, and framed in a mixed metal construction. Finished with silicone nose grips and curved plastic-tipped arms for a comfortable wear.",
+            "images": ["assets/images/accessories/accessories_sunglasses2.jpg", "assets/images/accessories/accessories_sunglasses2_2.jpg", "assets/images/accessories/accessories_sunglasses2_3.jpg"]
+        }
+    ]
+
+}

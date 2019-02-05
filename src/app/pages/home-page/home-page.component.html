@@ -1,0 +1,112 @@
+<nav-bar></nav-bar>
+
+<div id="top-img" data-scroll-speed="6" class="fill-screen col-xs-12" style="background-image: url(assets/images/cute_girl_2_fix.jpg);">
+
+  <div class="center-logo col-xs-8 col-xs-offset-2 hidden-sm hidden-md hidden-lg">
+    <img src="../../assets/images/loud-apparel-logo.png">
+  </div>
+
+  <div data-scroll-speed="1" class="chevron-down">
+      <i class="fa fa-chevron-down" id="chevron-down-arrow" aria-hidden="true"></i>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="fill-screen-left fixed-image cat-section col-xs-4" style="background-image: url(assets/images/winter_girl_1_trimmed.jpg);">
+    
+    <a [routerLink]="['/shop/winter']"><i class="fa fa-snowflake-o" id="snowflakeIcon" aria-hidden="true"></i></a>
+    
+  </div>
+  <div class="fill-screen fixed-image cat-section col-xs-4" style="background-image: url(assets/images/beach_girl_1.jpg);">
+
+    <a [routerLink]="['/shop/summer']"><i class="fa fa-sun-o" id="sunIcon" aria-hidden="true"></i></a>
+
+  </div>
+  <div class="fill-screen-right fixed-image cat-section col-xs-4" style="background-image: url(assets/images/cute_girl_1_fixed.jpg);">
+
+    <a [routerLink]="['/shop/professional']"><i class="fa fa-briefcase" id="briefcaseIcon" aria-hidden="true"></i></a>
+
+  </div>
+</div>
+
+<div class="white-divider"></div>
+
+<div class="row">
+
+  <div class="col-xs-12 col-md-6 secondary-category cat-section fill-div text-center" style="background-image: url(assets/images/lingerie_girl_3_fixed.jpg);">
+    <a [routerLink]="['/shop/evening']"><i class="fa fa-moon-o" id="moonIcon" aria-hidden="true"></i></a>
+  </div>
+  <div class="col-xs-12 col-md-6 secondary-category cat-section fill-div text-center" style="background-image: url(assets/images/accessories_girl_1.jpg);">
+    <a [routerLink]="['/shop/accessories']"><i class="fa fa-shopping-basket" id="basketIcon" aria-hidden="true"></i></a>
+  </div>  
+
+</div>
+
+<div class="white-divider"></div>
+
+
+<div class="row fixed-image fill-div" id="sale-section" style="background-image: url(assets/images/swimsuit_girl_1.jpeg);">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 sale-header">SUMMER SALE</div>
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3 video-box">
+    <div class="videoWrapper">
+      <iframe class="video-ad col-xs-12" src="https://www.youtube.com/embed/L7l4G9ve8uU?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+    </div>
+  </div>
+  <div class="col-xs-8 col-xs-offset-2 sale-body-header"><h2>SALUM VELIT CILLUM <span style="font-size: 102px;">25%!</span></h2></div>
+  <div class="col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3 sale-body"><p>Lorem ipsum dolor sit aea commodo consequat. Dptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div id="bottom-carousel" class="carousel slide col-xs-12" data-ride="carousel" data-wrap="true">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+          <div class="item active">
+              
+              <div class="fill-div carousel-item" style="background-image: url(assets/images/clothing-designer.png);">
+                <div class="carousel-overlay col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3">
+                  <h4>FILLEM TRESO</h4>
+                  <p>
+                      Lorem ipsum dolor sit aea commodo consequat. Dptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <button type="button" class="carousel-button">Learn More</button>
+                </div>
+              </div>
+              
+          </div>
+          <div class="item">
+
+              <div class="fill-div carousel-item" style="background-image: url(assets/images/lingerie_girl_1.jpg);">
+                <div class="carousel-overlay col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3" style="color: black;">
+                  <h4>SCRIBES LES</h4>
+                  <p>
+                      Lorem ipsum dolbore et dolore magnaation ullae irure dolor it nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <button type="button" class="carousel-button">Learn More</button>
+                </div>
+              </div>
+          </div>
+          <div class="item">
+              <div class="fill-div carousel-item" style="background-image: url(assets/images/la-skyline-old-fixed.jpg);">
+                <div class="carousel-overlay col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3">
+                  <h4>ELEST TRIBES</h4>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                  <button type="button" class="carousel-button">Learn More</button>
+                </div>
+              </div>
+          </div>
+
+          <a class="carousel-control left" href="#bottom-carousel" role="button" data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+          </a>
+          <a class="carousel-control right" href="#bottom-carousel" role="button" data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+          </a>
+      </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

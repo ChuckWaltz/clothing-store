@@ -1,0 +1,263 @@
+.center-logo {
+    margin-top: 300px;
+}
+
+.center-logo img{
+    width: 100%;
+}
+
+#snowflakeIcon:hover{
+    font-size: 18vh;
+}
+
+#snowflakeIcon{
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 15vh;
+
+    -webkit-transition: font-size 0.25s; /* Safari */
+    transition: font-size 0.25s;
+}
+
+#sunIcon{
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 15vh;
+
+    -webkit-transition: font-size 0.25s; /* Safari */
+    transition: font-size 0.25s;
+}
+
+#sunIcon:hover{
+    font-size: 18vh;
+}
+
+#briefcaseIcon{
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 15vh;
+
+    -webkit-transition: font-size 0.25s; /* Safari */
+    transition: font-size 0.25s;
+}
+
+#briefcaseIcon:hover{
+    font-size: 18vh;
+}
+
+#moonIcon{
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 17vh;
+
+    -webkit-transition: font-size 0.25s; /* Safari */
+    transition: font-size 0.25s;
+}
+
+#moonIcon:hover{
+    font-size: 20vh;
+}
+
+#basketIcon{
+    color: rgba(255, 255, 255, 0.514);
+    font-size: 15vh;
+
+    -webkit-transition: font-size 0.25s; /* Safari */
+    transition: font-size 0.25s;
+}
+
+#basketIcon:hover{
+    font-size: 18vh;
+}
+
+#top-img{
+    box-shadow: 0px 10px 60px black;
+}
+
+.chevron-down{
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
+}
+
+#chevron-down-arrow{
+    font-size: 7vh;
+    color: rgba(255, 255, 255, 1);
+}
+
+.video-box{
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 5px;
+    padding: 0;
+
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+.videoWrapper{
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+}
+
+.video-ad{
+    padding: 15px;
+    position: absolute;
+	width: 100%;
+	height: 100%
+    
+}
+
+#sale-section{
+    padding-top: 25px;
+    padding-left: 2%;
+    background-position: 80% 50%;
+    padding-bottom: 80px;
+    padding-right: 2.25%;
+}
+
+.white-divider{
+    height: 2vh;
+}
+
+.cat-section{
+    opacity: 1;
+    padding: 0;
+    text-align: center;
+    padding-top: 38vh;
+}
+
+.cat-section:hover{
+    opacity: 0.75;
+}
+
+.secondary-category{
+    height: 50vh;
+    padding-top: 16vh;
+}
+
+.sale-header{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 120px;
+}
+
+.sale-body{
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sale-body-header{
+    color: white;
+    text-align: center;
+    margin-top: 26px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sale-body-header h2{
+    font-size: 72px;
+}
+
+#bottom-carousel{
+    box-shadow: 0px -15px 60px #000000;
+    
+}
+
+.carousel-inner{
+    
+}
+
+.img-responsive{
+    width: 100vw;
+}
+
+.videoBG{
+    width: 100vw;
+}
+
+.icon-prev{
+    font-size: 10vh;
+    margin-top: -5vh;
+}
+
+.icon-next{
+    font-size: 10vh;
+    margin-top: -5vh;
+}
+
+.carousel-overlay{
+    color: white;
+    text-align: center;
+}
+
+.carousel-overlay h4{
+    font-size: 60px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+}
+
+.carousel-overlay p{
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carouselImage{
+    opacity: 0.75;
+}
+
+.carousel-button{
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 28px;
+    font-family: 'Seaweed Script', cursive;
+    outline: none;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.carousel-item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    min-height: 500px;
+}
+
+@media (max-width: 1199.98px) {
+    #sale-section{
+        padding-bottom: 40px;
+    }
+    .sale-header{
+        font-size: 62px;
+    }
+    .sale-body-header h2{
+        font-size: 52px;
+    }
+
+    .sale-body{
+        font-size: 18px;
+    }
+
+    .carousel-overlay h4{
+        font-size: 52px;
+    }
+
+    .carousel-overlay p{
+        font-size: 18px;
+    }
+
+    .carousel-button{
+        font-size: 24px;
+        padding: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .carousel-item{
+        padding: 10px;
+        min-height: 500px;
+    }
+ }

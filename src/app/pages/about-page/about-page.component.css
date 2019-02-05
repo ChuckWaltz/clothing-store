@@ -1,0 +1,149 @@
+.shadow{
+    box-shadow: 10px 10px 20px black;
+}
+
+.est-text{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    padding: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.est-banner-line{
+    height: 0.5em;
+    background-color: rgb(66, 66, 66);
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+.est-section{
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.banner{
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px 40px black;
+}
+
+.banner h1{
+    font-size: 72px;
+    font-family: 'Seaweed Script', cursive;
+}
+
+#about-img-main{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.75);
+    
+}
+
+.about-img-main-container{
+}
+
+.about-text{
+    background-color: white;
+    border-radius: 0.75vmin;
+    
+    text-align: center;
+    font-size: 1.35vmin;
+    padding: 20px;
+    box-shadow: 0px 0px 50px;
+    margin-bottom: 40vh;
+    
+}
+
+.about-text h2{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 72px;
+}
+
+.about-text p{
+    font-size: 18px;
+}
+
+.about-img{
+    box-shadow: 10px 10px 30px black;
+    padding: 0px;
+}
+
+.about-img-1{
+    margin-top: -15vmax;
+    position: absolute;
+    z-index: 100;
+}
+
+.about-img-2{
+    margin-top: 65vmax;
+    position: absolute;
+    z-index: 102;
+}
+
+.about-img-3{
+    margin-top: 30vmax;
+    position: absolute;
+    z-index: 10;
+}
+
+.about-img-4{
+    margin-top: 30vmax;
+    position: absolute;
+    z-index: 100;
+}
+
+.collage-container{
+    padding-bottom: 15vmax;
+}
+
+#top-logo-center{
+    
+    margin-top: 200px;
+}
+
+#top-logo-center img{
+    width: 100%;
+}
+
+@media (min-width: 576px) { 
+    .about-text p{
+        font-size: 18px;
+    }
+
+    .about-img-2{
+        margin-top: 25vmax;
+    }
+
+    .about-img-3{
+        margin-top: 25vmax;
+    }
+
+    .about-img-4{
+        margin-top: 35vmax;
+    }
+
+    .collage-container{
+        padding-bottom: 40vmax;
+    }
+
+    .banner h1{
+        font-size: 72px;
+    }
+
+    .est-text{
+        font-size: 18px;
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 575px){
+    .about-text h2{
+        font-size: 62px;
+    }
+}
