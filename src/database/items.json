@@ -268,7 +268,7 @@
             "images": ["assets/images/summer/summer_swimsuit2.jpg", "assets/images/summer/summer_swimsuit2_2.jpg", "assets/images/summer/summer_swimsuit2_3.jpg", "assets/images/summer/summer_swimsuit2_4.jpg"]
         },
         {
-            "name": "Out From Under Peek-A-Boo Ring One-Piece Swimsuit",
+            "name": "Peek-A-Boo Ring One-Piece Swimsuit",
             "price": "$69",
             "mainImageUrl": "assets/images/summer/summer_swimsuit3_3.jpg",
             "description": "Give beach days a jolt of sexy-retro style with this '80s-inspired one-piece swimsuit by Out From Under, only at Loud Apparel. Colorblocked ribbed style with a scoop neck and tank straps accented by large cutouts at stomach and back. Featuring ring connectors at sides for a 2-piece illusion construction complete with a hook clasp at back. Minimal coverage; lined.",
@@ -289,7 +289,7 @@
             "images": ["assets/images/summer/summer_trench1.jpg", "assets/images/summer/summer_trench1_2.jpg", "assets/images/summer/summer_trench1_3.jpg", "assets/images/summer/summer_trench1_4.jpg"]
         },
         {
-            "name": "Urban Renewal Remnants Linen Button-Down Shirt",
+            "name": "Remnants Linen Button-Down Shirt",
             "price": "$49",
             "mainImageUrl": "assets/images/summer/summer_shirt1.jpg",
             "description": "Button-down linen shirt that’s been made from remnant fabric rolls in the USA. Lightweight linen in a button-down construction. Topped with a pointed collar + extra-long, wide short sleeves. Finished with a pocket at the left chest + pleat at the reverse.",
@@ -355,7 +355,7 @@
             "images": ["assets/images/winter/winter_jacket1.jpg", "assets/images/winter/winter_jacket1_2.jpg", "assets/images/winter/winter_jacket1_3.jpg", "assets/images/winter/winter_jacket1_4.jpg"]
         },
         {
-            "name": "Remade Plaid Flannel Hooded Button-Down Shirt",
+            "name": "Remade Plaid Flannel Hooded Shirt",
             "price": "$79",
             "mainImageUrl": "assets/images/winter/winter_flanel1.jpg",
             "description": "Casually cool button-down hooded flannel shirt that’s been expertly upcycled by our Urban Renewal team. Topped with long sleeves + a drawstring hoodie. Please note that as each item has been updated by hand, each piece is truly one of a kind. The item you receive may vary from the item you see pictured here. We’ll find our favorite and deliver right to you!",
