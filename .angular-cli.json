@@ -7,10 +7,7 @@
     {
       "root": "src",
       "outDir": "dist",
-      "assets": [
-        "assets",
-        "database"
-      ],
+      "assets": ["assets", "database", "_redirects"],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
@@ -30,7 +27,6 @@
         "../src/app/common/parallax-scrolling.js",
         "../src/app/common/cbpAnimatedHeader.js",
         "../src/app/common/classie.js"
-        
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
