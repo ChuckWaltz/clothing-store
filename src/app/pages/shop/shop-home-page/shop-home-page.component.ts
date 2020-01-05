@@ -1,19 +1,30 @@
-import { Component, OnInit, OnChanges, HostListener, Inject, Input } from '@angular/core';
+import {
+  Component,
+  OnInit,
+  OnChanges,
+  HostListener,
+  Inject,
+  Input
+} from "@angular/core";
 
-import { JQ_TOKEN } from '../../../common/index';
+import { JQ_TOKEN } from "../../../common/index";
 
-import { ShopService } from '../../../shared/index';
+import { ShopService } from "../../../shared/index";
 
-import { Router, ActivatedRoute, Params } from '@angular/router';
+import { Router, ActivatedRoute, Params } from "@angular/router";
 
 @Component({
-  selector: 'app-shop-home-page',
-  templateUrl: './shop-home-page.component.html',
-  styleUrls: ['./shop-home-page.component.css']
+  selector: "app-shop-home-page",
+  templateUrl: "./shop-home-page.component.html",
+  styleUrls: ["./shop-home-page.component.css"]
 })
 export class ShopHomePageComponent implements OnInit {
-
-  constructor(@Inject(JQ_TOKEN) private $: any, private shopService: ShopService, private route: ActivatedRoute, private router: Router) { }
+  constructor(
+    @Inject(JQ_TOKEN) private $: any,
+    private shopService: ShopService,
+    private route: ActivatedRoute,
+    private router: Router
+  ) {}
 
   allItems: any;
 
@@ -27,37 +38,34 @@ export class ShopHomePageComponent implements OnInit {
   @Input() activeCategory: string = "";
 
   ngOnInit() {
-    
-        this.$(".fill-screen").css("height", window.innerHeight); //Sets the height initially
-        this.$(".fill-screen-left").css("height", window.innerHeight); //Sets the height initially
-        this.$(".fill-screen-right").css("height", window.innerHeight); //Sets the height initially
+    this.$(".fill-screen").css("height", window.innerHeight); //Sets the height initially
+    this.$(".fill-screen-left").css("height", window.innerHeight); //Sets the height initially
+    this.$(".fill-screen-right").css("height", window.innerHeight); //Sets the height initially
 
-        this.$(".fill-screen-half").css("height", window.innerHeight / 2); //Sets the height initiall
+    this.$(".fill-screen-half").css("height", window.innerHeight / 2); //Sets the height initiall
 
-        this.shopService.getItems().subscribe(data =>
-          
-          // this.allItems = data['items']
-          this.findItems(data)
-        
-        );
-
+    this.shopService.getItems().subscribe(data =>
+      // this.allItems = data['items']
+      this.findItems(data)
+    );
   }
 
-  findItems(data: any){
-    this.allItems = JSON.parse(JSON.stringify(data))
+  findItems(data: any) {
+    console.log(data);
+    this.allItems = JSON.parse(JSON.stringify(data));
 
-    this.activeCategory = this.route.snapshot.data['activeCategory'];
+    this.activeCategory = this.route.snapshot.data["activeCategory"];
 
     this.activeItems = this.allItems[this.activeCategory];
   }
 
-  active(name: any){
+  active(name: any) {
     this.productActive = !this.productActive;
 
-    if(this.productActive){
+    if (this.productActive) {
       var i;
-      for( i=0; i < this.activeItems.length; i++){
-        if(this.activeItems[i].name == name){
+      for (i = 0; i < this.activeItems.length; i++) {
+        if (this.activeItems[i].name == name) {
           this.activeProduct = this.activeItems[i];
           this.activeImageUrl = this.activeItems[i].mainImageUrl;
         }
@@ -65,11 +73,11 @@ export class ShopHomePageComponent implements OnInit {
     }
   }
 
-  switchMainImageUrl(i: any){
+  switchMainImageUrl(i: any) {
     this.activeImageUrl = i;
   }
 
-  @HostListener('window:resize')
+  @HostListener("window:resize")
   onWindowResize() {
     this.$(".fill-screen").css("height", window.innerHeight); //Sets the height on resize of window
     this.$(".fill-screen-left").css("height", window.innerHeight); //Sets the height on resize of window
@@ -77,5 +85,4 @@ export class ShopHomePageComponent implements OnInit {
 
     this.$(".fill-screen-half").css("height", window.innerHeight / 2); //Sets the height initially
   }
-
 }
