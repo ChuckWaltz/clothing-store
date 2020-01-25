@@ -51,7 +51,6 @@ export class ShopHomePageComponent implements OnInit {
   }
 
   findItems(data: any) {
-    console.log(data);
     this.allItems = JSON.parse(JSON.stringify(data));
 
     this.activeCategory = this.route.snapshot.data["activeCategory"];
