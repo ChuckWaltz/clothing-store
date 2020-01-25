@@ -7,11 +7,9 @@ import {
   Input
 } from "@angular/core";
 
-import { JQ_TOKEN } from "../../../common/index";
-
 import { ShopService } from "../../../shared/index";
 
-import { Router, ActivatedRoute, Params } from "@angular/router";
+import { Router, ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: "app-shop-home-page",
@@ -20,7 +18,6 @@ import { Router, ActivatedRoute, Params } from "@angular/router";
 })
 export class ShopHomePageComponent implements OnInit {
   constructor(
-    @Inject(JQ_TOKEN) private $: any,
     private shopService: ShopService,
     private route: ActivatedRoute,
     private router: Router
@@ -38,12 +35,6 @@ export class ShopHomePageComponent implements OnInit {
   @Input() activeCategory: string = "";
 
   ngOnInit() {
-    this.$(".fill-screen").css("height", window.innerHeight); //Sets the height initially
-    this.$(".fill-screen-left").css("height", window.innerHeight); //Sets the height initially
-    this.$(".fill-screen-right").css("height", window.innerHeight); //Sets the height initially
-
-    this.$(".fill-screen-half").css("height", window.innerHeight / 2); //Sets the height initiall
-
     this.shopService.getItems().subscribe(data =>
       // this.allItems = data['items']
       this.findItems(data)
@@ -74,14 +65,5 @@ export class ShopHomePageComponent implements OnInit {
 
   switchMainImageUrl(i: any) {
     this.activeImageUrl = i;
-  }
-
-  @HostListener("window:resize")
-  onWindowResize() {
-    this.$(".fill-screen").css("height", window.innerHeight); //Sets the height on resize of window
-    this.$(".fill-screen-left").css("height", window.innerHeight); //Sets the height on resize of window
-    this.$(".fill-screen-right").css("height", window.innerHeight); //Sets the height on resize of window
-
-    this.$(".fill-screen-half").css("height", window.innerHeight / 2); //Sets the height initially
   }
 }

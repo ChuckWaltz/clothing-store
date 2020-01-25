@@ -19,9 +19,6 @@ import { HttpClientModule } from "@angular/common/http";
 import { ShopItemComponent } from "./pages/shop/shop-item/shop-item.component";
 import { ShopService } from "./shared/index";
 
-export declare let jQuery: Object;
-export declare let toastr: Toastr;
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,17 +31,7 @@ export declare let toastr: Toastr;
     ShopItemComponent
   ],
   imports: [BrowserModule, HttpClientModule, RouterModule.forRoot(appRoutes)],
-  providers: [
-    ShopService,
-    {
-      provide: JQ_TOKEN,
-      useValue: jQuery
-    },
-    {
-      provide: TOASTR_TOKEN,
-      useValue: toastr
-    }
-  ],
+  providers: [ShopService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

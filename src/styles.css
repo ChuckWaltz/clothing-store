@@ -1,60 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css?family=Seaweed+Script');
-@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url("https://fonts.googleapis.com/css?family=Seaweed+Script");
+@import url("https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 
-html, body {
-    overflow-x: hidden;
+html,
+body {
+  overflow-x: hidden;
 }
 
-.fill-screen{
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.fill-screen {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-.fill-screen-half{
-    background-size: cover;
-    background-position: top;
-    height: 50vh;
+.fill-screen-half {
+  background-size: cover;
+  background-position: top;
+  height: 50vh;
 }
 
-.fill-screen-left{
-    background-size: cover;
-    background-position: 25% 50%;
-    height: 100vh;
+.fill-screen-left {
+  background-size: cover;
+  background-position: 25% 50%;
+  height: 100vh;
 }
 
-.fill-screen-right{
-    background-size: cover;
-    background-position: 70% 50%;
-    height: 100vh;
+.fill-screen-right {
+  background-size: cover;
+  background-position: 70% 50%;
+  height: 100vh;
 }
 
-.fill-div{
-    background-size: cover;
-    background-position: center;
+.fill-div {
+  background-size: cover;
+  background-position: center;
 }
 
-.fill-div-left{
-    background-size: cover;
-    background-position: left;
+.fill-div-left {
+  background-size: cover;
+  background-position: left;
 }
 
-.fill-div-right{
-    background-size: cover;
-    background-position: right;
+.fill-div-right {
+  background-size: cover;
+  background-position: right;
 }
 
-.fill-div-top{
-    background-size: cover;
-    background-position: center;
+.fill-div-top {
+  background-size: cover;
+  background-position: center;
 }
 
-.fixed-image{
-    background-attachment: fixed;
+.fixed-image {
+  background-attachment: fixed;
 }
 
-a:hover{
-    cursor: pointer;
+a {
+  z-index: 100;
+}
+
+a:hover {
+  cursor: pointer;
 }
