@@ -22,13 +22,13 @@ body {
 
 .fill-screen-left {
   background-size: cover;
-  background-position: 25% 50%;
+  background-position: 0% 50%;
   height: 100vh;
 }
 
 .fill-screen-right {
   background-size: cover;
-  background-position: 70% 50%;
+  background-position: 100% 50%;
   height: 100vh;
 }
 
@@ -50,10 +50,6 @@ body {
 .fill-div-top {
   background-size: cover;
   background-position: center;
-}
-
-.fixed-image {
-  background-attachment: fixed;
 }
 
 a {

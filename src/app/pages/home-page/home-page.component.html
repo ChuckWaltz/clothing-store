@@ -23,7 +23,7 @@
 
 <div class="row">
   <div
-    class="fill-screen-left fixed-image cat-section col-xs-4"
+    class="fill-screen-left cat-section col-xs-4"
     style="background-image: url(assets/images/winter_girl_1_trimmed.jpg);"
   >
     <a [routerLink]="['/shop/winter']"
@@ -31,7 +31,7 @@
     ></a>
   </div>
   <div
-    class="fill-screen fixed-image cat-section col-xs-4"
+    class="fill-screen cat-section col-xs-4"
     style="background-image: url(assets/images/beach_girl_1.jpg);"
   >
     <a [routerLink]="['/shop/summer']"
@@ -39,7 +39,7 @@
     ></a>
   </div>
   <div
-    class="fill-screen-right fixed-image cat-section col-xs-4"
+    class="fill-screen-right cat-section col-xs-4"
     style="background-image: url(assets/images/cute_girl_1_fixed.jpg);"
   >
     <a [routerLink]="['/shop/professional']"
@@ -72,9 +72,11 @@
 <div class="white-divider"></div>
 
 <div
-  class="row fixed-image fill-div"
+  class="row fill-div parallax-window"
+  data-parallax="scroll"
+  data-speed="0"
+  data-image-src="../../../assets/images/swimsuit_girl_1.jpeg"
   id="sale-section"
-  style="background-image: url(assets/images/swimsuit_girl_1.jpeg);"
 >
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 sale-header">SUMMER SALE</div>
   <div

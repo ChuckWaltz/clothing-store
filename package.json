@@ -21,9 +21,10 @@
     "@angular/platform-browser": "^4.2.4",
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "core-js": "^2.4.1",
-    "jquery": "^3.2.1",
+    "jquery": "^3.4.1",
+    "jquery-parallax.js": "^1.5.0",
     "rxjs": "^5.4.2",
     "toastr": "^2.1.2",
     "zone.js": "^0.8.14"

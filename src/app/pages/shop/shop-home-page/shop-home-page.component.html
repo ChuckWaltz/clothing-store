@@ -1,5 +1,9 @@
 <nav-bar></nav-bar>
-<div data-scroll-speed="0" class="fill-screen-half fixed-image col-xs-12 store-header-img" style="background-image: url(assets/images/store-interior-2-fix.jpg);">
+<div
+  data-scroll-speed="0"
+  class="fill-screen-half col-xs-12 store-header-img"
+  style="background-image: url(assets/images/store-interior-2-fix.jpg);"
+>
   <div class=" col-xs-12 store-header">SHOP</div>
 </div>
 
@@ -16,40 +20,44 @@
 </div>
 
 <div class="row">
-  <div class="fill-div fixed-image col-xs-12" style="background-color: white;">
-    <div class="store-content-area"> 
-
+  <div class="fill-div col-xs-12" style="background-color: white;">
+    <div class="store-content-area">
       <div class="store-content-area-inner">
-
         <div class="filtered-section">
           <div class="store-content-area-header">
-              <h1>{{activeCategory | titlecase}}</h1>
+            <h1>{{ activeCategory | titlecase }}</h1>
           </div>
           <div class="row store-content-item-list">
             <div *ngFor="let item of activeItems">
-              <app-shop-item [name]=item.name (click)="active(item.name)"></app-shop-item>
+              <app-shop-item
+                [name]="item.name"
+                (click)="active(item.name)"
+              ></app-shop-item>
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   </div>
 </div>
 
 <div class="shop-item-product-page" *ngIf="productActive">
-
   <div class="close-button" (click)="active()">X</div>
-  <br>
+  <br />
 
   <div class="shop-item-images">
-      <img class="main-image col-xs-10" src="{{activeImageUrl}}" >
-      <img class="side-image col-xs-2" src="{{i}}" *ngFor="let i of activeProduct.images" (click)="switchMainImageUrl(i)" >
+    <img class="main-image col-xs-10" src="{{ activeImageUrl }}" />
+    <img
+      class="side-image col-xs-2"
+      src="{{ i }}"
+      *ngFor="let i of activeProduct.images"
+      (click)="switchMainImageUrl(i)"
+    />
   </div>
 
   <div class="shop-item-bottom-text col-xs-12">
-    <h2>{{activeProduct.name}} - {{activeProduct.price}}</h2>
-    <p>{{activeProduct.description}}</p>
+    <h2>{{ activeProduct.name }} - {{ activeProduct.price }}</h2>
+    <p>{{ activeProduct.description }}</p>
 
     <select class="size-select">
       <option value="">Size</option>
@@ -71,9 +79,6 @@
 
     <button class="add-to-cart-button">Add to Cart</button>
   </div>
-
 </div>
-
-
 
 <app-footer></app-footer>
