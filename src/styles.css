@@ -23,13 +23,19 @@ body {
 .fill-screen-left {
   background-size: cover;
   background-position: 0% 50%;
-  height: 100vh;
+  height: 50vh;
 }
 
 .fill-screen-right {
   background-size: cover;
   background-position: 100% 50%;
-  height: 100vh;
+  height: 50vh;
+}
+
+.fill-screen-center {
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
 }
 
 .fill-div {
@@ -58,4 +64,19 @@ a {
 
 a:hover {
   cursor: pointer;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .fill-screen-left {
+    height: 100vh;
+  }
+
+  .fill-screen-right {
+    height: 100vh;
+  }
+
+  .fill-screen-center {
+    height: 100vh;
+  }
 }
