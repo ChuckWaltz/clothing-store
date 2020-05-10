@@ -1,96 +1,85 @@
-.navbar{
-    
-    width: 100%;
-    transition: 0.25s;
-    background-color: rgba(0,0,0,0);
-    border-color: rgba(0,0,0,0);
-    font-family: 'Seaweed Script', cursive;
-    
+.navbar {
+  width: 100%;
+  transition: 0.25s;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  font-family: "Seaweed Script", cursive;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-size: 36px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  text-decoration: overline;
+}
+
+.top-logo {
+  padding: 0;
+}
+
+.cbp-af-header-shrink {
+  top: 0;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.cbp-af-header-shrink .top-logo a img {
+  height: 62px;
+  margin: 10px;
+}
+
+.top-logo a img {
+  opacity: 1 !important;
+  height: 500px;
+  max-height: 25vh;
+  margin: 40px;
+
+  -webkit-transition: height 0.5s, margin 0.3s; /* Safari */
+  transition: height 0.5s, margin 0.3s;
+}
+
+.nav {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .top-logo {
+    display: none;
+    opacity: 1;
+    float: right;
+  }
+
+  .top-logo a img {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav {
+    margin-left: 5px;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .navbar-header {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.35);
+  }
+
+  .navbar-nav {
+    margin: 10px;
+    margin-top: 15px;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
     color: white;
     font-size: 36px;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover {
-    text-decoration: overline;
-}
-
-.top-logo{
-    padding: 0;
-}
-
-.cbp-af-header-shrink{
-    top: 0;
-    opacity: 1;
-    background-color: rgba(0,0,0,0.25);
-    
-
-}
-
-.cbp-af-header-shrink .top-logo a img{
-
-    height: 62px;
-    margin: 10px;
-
-}
-
-.top-logo a img{
-    opacity: 1 !important;
-    height: 500px;
-    max-height: 25vh;
-    margin: 40px;
-
-    -webkit-transition: height 0.5s, margin 0.3s; /* Safari */
-    transition: height 0.5s, margin 0.3s;
-    
-}
-
-.nav{
-    margin-top: 20px;
-    margin-right: 10px;
-}
-
-@media screen and (max-width:767px) {
-    .top-logo{
-        display: none;
-        opacity: 1;
-        float: right;
-    }
-
-    .top-logo a img{
-        margin: 0px;
-        padding: 0px;
-        
-    }
-
-    .nav{
-        margin-left: 5px;
-    }
-
-    .nav li{
-        display: inline-block;
-    }
-
-    .navbar-header{
-        background-color: rgba(0, 0, 0, 0.25);
-    }
-
-    .navbar-collapse{
-        background-color: rgba(0, 0, 0, 0.25);
-    }
-
-    .navbar-nav{
-        margin: 10px;
-        margin-top: 15px;
-    }
-
-    .navbar-inverse .navbar-nav>li>a {
-    
-        color: white;
-        font-size: 36px;
-    }
-
+  }
 }

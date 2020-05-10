@@ -6,74 +6,43 @@
   width: 100%;
 }
 
-#snowflakeIcon:hover {
+.cat-section {
+  opacity: 1;
+  padding: 0;
+  text-align: center;
+}
+
+.cat-section:hover {
+  opacity: 0.75;
+}
+
+.category-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   font-size: 18vh;
-}
-
-#snowflakeIcon {
-  color: rgba(255, 255, 255, 0.514);
-  font-size: 15vh;
+  color: rgba(255, 255, 255, 0.7);
 
   -webkit-transition: font-size 0.25s; /* Safari */
   transition: font-size 0.25s;
 }
 
-#sunIcon {
-  color: rgba(255, 255, 255, 0.514);
-  font-size: 15vh;
-
-  -webkit-transition: font-size 0.25s; /* Safari */
-  transition: font-size 0.25s;
-}
-
-#sunIcon:hover {
-  font-size: 18vh;
-}
-
-#briefcaseIcon {
-  color: rgba(255, 255, 255, 0.514);
-  font-size: 15vh;
-
-  -webkit-transition: font-size 0.25s; /* Safari */
-  transition: font-size 0.25s;
-}
-
-#briefcaseIcon:hover {
-  font-size: 18vh;
-}
-
-#moonIcon {
-  color: rgba(255, 255, 255, 0.514);
-  font-size: 17vh;
-
-  -webkit-transition: font-size 0.25s; /* Safari */
-  transition: font-size 0.25s;
-}
-
-#moonIcon:hover {
-  font-size: 20vh;
-}
-
-#basketIcon {
-  color: rgba(255, 255, 255, 0.514);
-  font-size: 15vh;
-
-  -webkit-transition: font-size 0.25s; /* Safari */
-  transition: font-size 0.25s;
-}
-
-#basketIcon:hover {
-  font-size: 18vh;
+.cat-section:hover .category-icon {
+  font-size: 22vh;
 }
 
 #top-img {
   box-shadow: 0px 10px 60px black;
+  background-image: url("/assets/images/cute_girl_2_fix_cropped.jpg");
+  background-position: right;
 }
 
 .chevron-down {
   position: absolute;
-  bottom: 1vh;
-  left: 1vh;
+  bottom: 50px;
+  left: 50px;
 }
 
 #chevron-down-arrow {
@@ -103,32 +72,17 @@
 }
 
 #sale-section {
-  padding-top: 25px;
+  padding-top: 40px;
   padding-left: 2%;
-  background-position: 80% 50%;
   padding-bottom: 80px;
   padding-right: 2.25%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/assets/images/beach_img.jpg");
 }
 
 .white-divider {
   height: 2vh;
-}
-
-.cat-section {
-  opacity: 1;
-  padding: 0;
-  text-align: center;
-}
-
-.cat-section a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.cat-section:hover {
-  opacity: 0.75;
 }
 
 .secondary-category {
@@ -141,6 +95,7 @@
   font-family: "Oswald", sans-serif;
   color: white;
   font-size: 120px;
+  margin-bottom: 25px;
 }
 
 .sale-body {
@@ -164,6 +119,7 @@
 
 #bottom-carousel {
   box-shadow: 0px -15px 60px #000000;
+  border-top: 2vh solid white;
 }
 
 .carousel-inner {
@@ -190,6 +146,9 @@
 .carousel-overlay {
   color: white;
   text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .carousel-overlay h4 {
@@ -200,7 +159,7 @@
 
 .carousel-overlay p {
   font-size: 18px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -209,16 +168,14 @@
 }
 
 .carousel-button {
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: white;
   border-radius: 50px;
   border: none;
-  color: white;
+  color: black;
   font-size: 28px;
   font-family: "Seaweed Script", cursive;
   outline: none;
-  padding: 20px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 5px 20px;
 }
 
 .carousel-item {
@@ -226,14 +183,20 @@
   align-items: center;
   padding: 10px;
   min-height: 500px;
+  background-position: top right;
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  #top-img {
+    background-image: url("/assets/images/cute_girl_2_fix.jpg");
+    background-position: center;
+  }
 }
 
 @media (max-width: 1199.98px) {
-  #sale-section {
-    padding-bottom: 40px;
-  }
   .sale-header {
-    font-size: 62px;
+    font-size: 92px;
   }
   .sale-body-header h2 {
     font-size: 52px;

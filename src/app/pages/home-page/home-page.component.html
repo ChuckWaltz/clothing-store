@@ -4,7 +4,6 @@
   id="top-img"
   data-scroll-speed="6"
   class="fill-screen col-xs-12"
-  style="background-image: url(assets/images/cute_girl_2_fix.jpg);"
 >
   <div
     class="center-logo col-xs-8 col-xs-offset-2 hidden-sm hidden-md hidden-lg"
@@ -12,7 +11,7 @@
     <img src="../../assets/images/loud-apparel-logo.png" />
   </div>
 
-  <div data-scroll-speed="1" class="chevron-down">
+  <div data-scroll-speed="1" class="chevron-down hidden-xs col-md">
     <i
       class="fa fa-chevron-down"
       id="chevron-down-arrow"
@@ -22,60 +21,62 @@
 </div>
 
 <div class="row">
-  <div
-    class="fill-screen-left cat-section col-xs-12 col-lg-4"
-    style="background-image: url(assets/images/winter_girl_1_trimmed.jpg);"
-  >
-    <a [routerLink]="['/shop/winter']"
-      ><i class="fa fa-snowflake-o" id="snowflakeIcon" aria-hidden="true"></i
-    ></a>
-  </div>
-  <div
-    class="fill-screen-center cat-section col-xs-12 col-lg-4"
-    style="background-image: url(assets/images/beach_girl_1.jpg);"
-  >
-    <a [routerLink]="['/shop/summer']"
-      ><i class="fa fa-sun-o" id="sunIcon" aria-hidden="true"></i
-    ></a>
-  </div>
-  <div
-    class="fill-screen-right cat-section col-xs-12 col-lg-4"
-    style="background-image: url(assets/images/cute_girl_1_fixed.jpg);"
-  >
-    <a [routerLink]="['/shop/professional']"
-      ><i class="fa fa-briefcase" id="briefcaseIcon" aria-hidden="true"></i
-    ></a>
-  </div>
+  <a [routerLink]="['/shop/winter']">
+    <div
+      class="fill-screen-left cat-section col-xs-12 col-lg-4"
+      style="background-image: url(assets/images/winter_girl_1_trimmed.jpg);"
+    >
+      <i class="fa fa-snowflake-o category-icon" id="snowflakeIcon" aria-hidden="true"></i
+      >
+    </div>
+  </a>
+  <a [routerLink]="['/shop/summer']">
+    <div
+      class="fill-screen-center cat-section col-xs-12 col-lg-4"
+      style="background-image: url(assets/images/beach_girl_1.jpg);"
+    >
+      <i class="fa fa-sun-o category-icon" id="sunIcon" aria-hidden="true"></i
+      >
+    </div>
+  </a>
+  <a [routerLink]="['/shop/professional']">
+    <div
+      class="fill-screen-right cat-section col-xs-12 col-lg-4"
+      style="background-image: url(assets/images/cute_girl_1_fixed.jpg);"
+    >
+      <i class="fa fa-briefcase category-icon" id="briefcaseIcon" aria-hidden="true"></i
+      >
+    </div>
+  </a>
 </div>
 
 <div class="white-divider hidden-xs col-lg"></div>
 
 <div class="row">
-  <div
-    class="col-xs-12 col-md-6 secondary-category cat-section fill-div text-center"
-    style="background-image: url(assets/images/lingerie_girl_3_fixed.jpg);"
-  >
-    <a [routerLink]="['/shop/intimates']"
-      ><i class="fa fa-moon-o" id="moonIcon" aria-hidden="true"></i
-    ></a>
-  </div>
-  <div
-    class="col-xs-12 col-md-6 secondary-category cat-section fill-div text-center"
-    style="background-image: url(assets/images/accessories_girl_1.jpg);"
-  >
-    <a [routerLink]="['/shop/accessories']"
-      ><i class="fa fa-shopping-basket" id="basketIcon" aria-hidden="true"></i
-    ></a>
-  </div>
+  <a [routerLink]="['/shop/intimates']">
+    <div
+      class="col-xs-12 col-md-6 secondary-category cat-section fill-div text-center"
+      style="background-image: url(assets/images/lingerie_girl_3_fixed.jpg);"
+    >
+      <i class="fa fa-moon-o category-icon" id="moonIcon" aria-hidden="true"></i
+      >
+    </div>
+  </a>
+  <a [routerLink]="['/shop/accessories']">
+    <div
+      class="col-xs-12 col-md-6 secondary-category cat-section fill-div text-center"
+      style="background-image: url(assets/images/accessories_girl_1.jpg);"
+    >
+      <i class="fa fa-shopping-basket category-icon" id="basketIcon" aria-hidden="true"></i
+      >
+    </div>
+  </a>
 </div>
 
 <div class="white-divider"></div>
 
 <div
-  class="row fill-div parallax-window"
-  data-parallax="scroll"
-  data-speed="0"
-  data-image-src="../../../assets/images/swimsuit_girl_1.jpeg"
+  class="row fill-div"
   id="sale-section"
 >
   <div class="col-xs-12 col-sm-10 col-sm-offset-1 sale-header">SUMMER SALE</div>
@@ -93,7 +94,7 @@
   <div class="col-xs-8 col-xs-offset-2 sale-body-header">
     <h2>SALUM VELIT CILLUM <span style="font-size: 102px;">25%!</span></h2>
   </div>
-  <div class="col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3 sale-body">
+  <div class="col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3 sale-body">
     <p>
       Lorem ipsum dolor sit aea commodo consequat. Dptate velit esse cillum
       dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -137,7 +138,6 @@
         >
           <div
             class="carousel-overlay col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-3"
-            style="color: black;"
           >
             <h4>SCRIBES LES</h4>
             <p>
